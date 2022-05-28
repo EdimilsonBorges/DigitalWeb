@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.radio.DigitalWeb"
+4    android:versionCode="39"
+5    android:versionName="1.3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:8:5-68
+13-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:9:5-77
+14-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:9:22-74
+15
+16    <application
+16-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:11:5-117:19
+17        android:name="android.support.multidex.MultiDexApplication"
+17-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:12:9-68
+18        android:appComponentFactory="whateverString"
+18-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:13:9-53
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:14:9-43
+21        android:label="@string/app_name"
+21-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:15:9-41
+22        android:testOnly="true"
+23        android:usesCleartextTraffic="true" >
+23-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:16:9-44
+24        <activity
+24-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:21:9-35:20
+25            android:name="br.radio.DigitalWeb.MainActivityPrincipal"
+25-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:22:13-69
+26            android:label="@string/title_activity_main_principal"
+26-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:23:13-66
+27            android:launchMode="singleTop"
+27-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:25:13-43
+28            android:noHistory="true"
+28-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:26:13-37
+29            android:screenOrientation="portrait"
+29-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:24:13-49
+30            android:theme="@style/AppTheme.NoActionBar" >
+30-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:27:13-56
+31
+32            <!-- android:configChanges="orientation|keyboardHidden|screenSize">  Atenção isso impede que o Oncreate seja chamado oa girar a tela -->
+33            <intent-filter>
+33-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:30:13-34:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:31:17-69
+34-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:31:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:33:17-77
+36-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:33:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:37:9-41:20
+40            android:name="br.radio.DigitalWeb.ProgramacaoActivity"
+40-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:37:19-54
+41            android:label="@string/title_activity_main_principal"
+41-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:38:13-66
+42            android:screenOrientation="portrait"
+42-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:39:13-49
+43            android:theme="@style/AppTheme" >
+43-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:40:13-44
+44        </activity>
+45        <activity
+45-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:43:9-50:20
+46            android:name="br.radio.DigitalWeb.ActivityCustonDialogTemporizador"
+46-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:44:13-61
+47            android:label="@string/title_activity_main_principal"
+47-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:45:13-66
+48            android:launchMode="singleTop"
+48-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:47:13-43
+49            android:screenOrientation="portrait"
+49-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:46:13-49
+50            android:theme="@style/AppTheme" >
+50-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:48:13-44
+51        </activity>
+52        <activity
+52-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:52:9-59:20
+53            android:name="br.radio.DigitalWeb.ActivityPedidos"
+53-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:53:13-44
+54            android:label="@string/title_activity_main_principal"
+54-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:54:13-66
+55            android:launchMode="singleTop"
+55-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:56:13-43
+56            android:screenOrientation="portrait"
+56-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:55:13-49
+57            android:theme="@style/AppTheme" >
+57-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:57:13-44
+58        </activity>
+59        <activity
+59-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:61:9-68:20
+60            android:name="br.radio.DigitalWeb.ActivityHistorico"
+60-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:62:13-46
+61            android:label="@string/title_activity_main_principal"
+61-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:63:13-66
+62            android:launchMode="singleTop"
+62-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:65:13-43
+63            android:screenOrientation="portrait"
+63-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:64:13-49
+64            android:theme="@style/AppTheme" >
+64-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:66:13-44
+65        </activity>
+66
+67        <service
+67-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:70:9-80:19
+68            android:name="br.radio.DigitalWeb.PlayerService"
+68-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:71:13-61
+69            android:exported="false"
+69-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:72:13-37
+70            android:label="PlayerService"
+70-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:73:13-42
+71            android:stopWithTask="false" >
+71-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:74:13-41
+72            <intent-filter>
+72-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:75:13-79:29
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:76:17-76
+73-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:76:27-73
+74
+75                <action android:name="PLAYER_SERVICE" />
+75-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:78:17-57
+75-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:78:25-54
+76            </intent-filter>
+77        </service>
+78        <service
+78-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:81:9-85:44
+79            android:name="br.radio.DigitalWeb.SleepTimerService"
+79-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:82:13-65
+80            android:exported="false"
+80-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:83:13-37
+81            android:label="SleepTimerService"
+81-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:84:13-46
+82            android:stopWithTask="false" />
+82-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:85:13-41
+83
+84        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver" >
+84-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:87:9-91:20
+84-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:87:19-86
+85            <intent-filter>
+85-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:88:13-90:29
+86                <action android:name="android.intent.action.MEDIA_BUTTON" />
+86-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:89:17-77
+86-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:89:25-74
+87            </intent-filter>
+88        </receiver>
+89        <receiver android:name="br.radio.DigitalWeb.MyRadioNotificationBroadcastReceiver" >
+89-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:92:9-97:20
+89-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:92:19-90
+90            <intent-filter>
+90-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:93:13-96:29
+91                <action android:name="NOTIFY_FECHAR2" />
+91-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:94:17-57
+91-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:94:25-54
+92                <action android:name="NOTIFY_PLAYPAUSE2" />
+92-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:95:17-60
+92-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:95:25-57
+93            </intent-filter>
+94        </receiver>
+95        <receiver android:name="br.radio.DigitalWeb.BroadcastReceiverPlayPause" />
+95-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:9-83
+95-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:19-80
+96        <receiver android:name="br.radio.DigitalWeb.BroadcastReceiverSair" />
+96-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:9-78
+96-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:19-75
+97        <!--
+98 ATTENTION: This was auto-generated to add Google Play services to your project for
+99     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+100
+101        <meta-data
+102            android:name="com.google.firebase.messaging.default_notification_icon"
+103            android:resource="@drawable/icone" />
+104        -->
+105        <!--
+106             Set color used with incoming notification messages. This is used when no color is set for the incoming
+107             notification message. See README(https://goo.gl/6BKBk7) for more.
+108        -->
+109        <!--
+110        <meta-data
+111            android:name="com.google.firebase.messaging.default_notification_color"
+112            android:resource="@color/colorAccent" />
+113        -->
+114        <activity
+114-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+118
+119        <provider
+119-->[com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+120            android:name="com.google.firebase.provider.FirebaseInitProvider"
+120-->[com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+121            android:authorities="br.radio.DigitalWeb.firebaseinitprovider"
+121-->[com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+122            android:exported="false"
+122-->[com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+123            android:initOrder="100" />
+123-->[com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+124
+125        <meta-data
+125-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+126            android:name="com.google.android.gms.version"
+126-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+127            android:value="@integer/google_play_services_version" />
+127-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+128        <meta-data
+128-->[com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+129            android:name="android.support.VERSION"
+129-->[com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+130            android:value="26.1.0" />
+130-->[com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+131    </application>
+132
+133</manifest>

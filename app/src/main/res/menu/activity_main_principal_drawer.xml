@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@mipmap/ic_telefone"
+            android:title="@string/ligar_pra_nos"
+            android:id="@+id/nav_ligar" />
+
+        <item
+            android:id="@+id/nav_compartilhar"
+            android:icon="@mipmap/ic_compartilhar"
+            android:title="@string/compartilharNome" />
+        <item
+            android:id="@+id/nav_avaliar"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="@string/avaliar_app" />
+        <item
+            android:id="@+id/programacao"
+            android:icon="@drawable/ic_programacao"
+            android:title="@string/grade_de_programa_o" />
+
+        <item
+            android:icon="@drawable/ic_pedir_musica"
+            android:title="Pedir Música"
+            android:id="@+id/nav_pedir_musica" />
+        <item
+            android:id="@+id/historico"
+            android:icon="@drawable/ic_historico"
+            android:title="Histórico" />
+    </group>
+
+    <item android:title="@string/mais_nome">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@mipmap/ic_sobre"
+                android:title="@string/sobre_nome" />
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/sair" />
+        </menu>
+    </item>
+
+</menu>

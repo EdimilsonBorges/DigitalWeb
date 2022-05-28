@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pedir_musica"
+        android:icon="@drawable/ic_pedir_musica"
+        app:showAsAction="always"
+        android:title="Pedir Música" />
+
+    <item
+        android:id="@+id/temporizador"
+        android:icon="@drawable/ic_tempo"
+        app:showAsAction="always"
+        android:title="Temporizador" />
+
+</menu>

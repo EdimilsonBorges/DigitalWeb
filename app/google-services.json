@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910142044145",
+    "firebase_url": "https://radio-digital-web-default-rtdb.firebaseio.com",
+    "project_id": "radio-digital-web",
+    "storage_bucket": "radio-digital-web.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910142044145:android:c55b2e6bbb498bb9b53650",
+        "android_client_info": {
+          "package_name": "br.radio.DigitalWeb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910142044145-8f7ffsh5s9idtfq284fh6fumknupdlmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiDCmiX92noVV1BQnusQeCwd675t9Hszs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910142044145-8f7ffsh5s9idtfq284fh6fumknupdlmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

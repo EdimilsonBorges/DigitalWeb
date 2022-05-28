@@ -1,0 +1,408 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ae0fcf4f66af653d1a7be025cf0ffc36\multidex-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3dd6212fb69fb3178339ba446ee6c6e3\firebase-database-16.0.4\AndroidManifest.xml:15:1-25:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\370fd0bf6409762f0387b8f0c3512373\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cea9079f0bf8c388823635c3912fd1d9\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3d0335a274b0854614acfdeae9c04374\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\7baebf2feefd3963cb83aeb7b3520999\exoplayer-2.8.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\dcf9a919cec009f0c35d9a752ba4aca2\exoplayer-ui-2.8.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3f31f59e0cb6d2fe765e2637409eea27\play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\8de3d97f70b44f5883eb87d1f3bc7d13\firebase-database-collection-16.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\47c5731289ca8f31c16f6747f4fb79ac\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\30be060ee7b2fe78ad69db622db3392c\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a17e3237db6bc3c614f2fe866e724d5c\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\c2a3e88ce03194030dedba48498f1a50\gridlayout-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a29eef0c8ef3022235b061ee95b088f6\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f7d44c51858d7e81e2b625aff3a5f6ba\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\1f84353876751a1db80f9ce4b3a73a7c\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\69af4c3aa7a1246fe331eca0ecf7c176\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ea0b370dfbeda0072dcd0a548b6744c9\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\471afc198ea358b72d134570ffa1f477\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\e1540c04539f58abc30e9b1e3315acfa\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\45df82c131d1cf352354771096ee9206\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\855f8d6e715c1002636f4d083aa83420\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\48821a5a63cacbc1530c6384876d2b38\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f2b4e9b4d4b3fab8fdb968de21d09b07\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3ce3d1afe01bc79a5206a0763e9d341f\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a037d926a90914fcbe19a88b92b2e081\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\fff1230d52b1e3545883ff345df56bb6\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ebb617fde759241d856d92b10195ccc0\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cd1395d69461479570d97f029a1e82eb\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b99fba2c9314abede9a37d4cc56cf00e\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f8df5dc4da130343843645d2efa08da0\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b4b6b2b7f2dccb1f5124f0ff33e953d3\exoplayer-dash-2.8.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9fd257584f47507e43a376cd20111218\exoplayer-hls-2.8.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9ed2e9c659a5640cc331cfdad7a9f932\exoplayer-smoothstreaming-2.8.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\bb8f46d9833929addceb775b7647efc8\exoplayer-core-2.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\4b0632a0f74e6700f12806d13a70d1c1\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\8eb43ac06a3b72131678e64996db1af0\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9383c8af352789bf0555dcd4635f5552\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\1722dabe87e24c9774cd89961248b7fd\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3e2083ce3f99f60a8e73e16db893919b\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9109b62b8a519b8931c00d71b7fa8eb8\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\2212564751a3bfd00676c7c2907dad1a\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\884b235647fc38b9a52b1a8459ce3a9a\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3323f115b8ac38652ec3bbe7cb8d8a1a\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:1-119:12
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3dd6212fb69fb3178339ba446ee6c6e3\firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3dd6212fb69fb3178339ba446ee6c6e3\firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3dd6212fb69fb3178339ba446ee6c6e3\firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3dd6212fb69fb3178339ba446ee6c6e3\firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\bb8f46d9833929addceb775b7647efc8\exoplayer-core-2.8.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\bb8f46d9833929addceb775b7647efc8\exoplayer-core-2.8.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:9:22-74
+application
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:11:5-117:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\370fd0bf6409762f0387b8f0c3512373\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\370fd0bf6409762f0387b8f0c3512373\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cea9079f0bf8c388823635c3912fd1d9\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cea9079f0bf8c388823635c3912fd1d9\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3f31f59e0cb6d2fe765e2637409eea27\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3f31f59e0cb6d2fe765e2637409eea27\play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\30be060ee7b2fe78ad69db622db3392c\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\30be060ee7b2fe78ad69db622db3392c\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cd1395d69461479570d97f029a1e82eb\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cd1395d69461479570d97f029a1e82eb\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b99fba2c9314abede9a37d4cc56cf00e\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b99fba2c9314abede9a37d4cc56cf00e\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:15:9-41
+	android:appComponentFactory
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:13:9-53
+		REJECTED from [com.android.support:support-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cd1395d69461479570d97f029a1e82eb\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	tools:ignore
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:17:9-60
+	tools:targetApi
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:19:9-28
+	android:icon
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:14:9-43
+	tools:replace
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:18:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:12:9-68
+activity#br.radio.DigitalWeb.MainActivityPrincipal
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:21:9-35:20
+	android:screenOrientation
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:23:13-66
+	android:launchMode
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:25:13-43
+	android:noHistory
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:22:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:33:27-74
+activity#br.radio.DigitalWeb.ProgramacaoActivity
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:37:9-41:20
+	android:screenOrientation
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:38:13-66
+	android:theme
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:37:19-54
+activity#br.radio.DigitalWeb.ActivityCustonDialogTemporizador
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:43:9-50:20
+	android:screenOrientation
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:46:13-49
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:45:13-66
+	android:launchMode
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:47:13-43
+	android:theme
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:44:13-61
+activity#br.radio.DigitalWeb.ActivityPedidos
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:52:9-59:20
+	android:screenOrientation
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:54:13-66
+	android:launchMode
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:56:13-43
+	android:theme
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:53:13-44
+activity#br.radio.DigitalWeb.ActivityHistorico
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:61:9-68:20
+	android:screenOrientation
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:63:13-66
+	android:launchMode
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:65:13-43
+	android:theme
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:66:13-44
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:62:13-46
+service#br.radio.DigitalWeb.PlayerService
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:70:9-80:19
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:73:13-42
+	android:exported
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:72:13-37
+	android:stopWithTask
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:74:13-41
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:71:13-61
+intent-filter#action:name:PLAYER_SERVICE+category:name:android.intent.category.DEFAULT
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:75:13-79:29
+category#android.intent.category.DEFAULT
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:76:17-76
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:76:27-73
+action#PLAYER_SERVICE
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:78:17-57
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:78:25-54
+service#br.radio.DigitalWeb.SleepTimerService
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:81:9-85:44
+	android:label
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:84:13-46
+	android:exported
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:83:13-37
+	android:stopWithTask
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:85:13-41
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:82:13-65
+receiver#android.support.v4.media.session.MediaButtonReceiver
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:87:9-91:20
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:87:19-86
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:88:13-90:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:89:17-77
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:89:25-74
+receiver#br.radio.DigitalWeb.MyRadioNotificationBroadcastReceiver
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:92:9-97:20
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:92:19-90
+intent-filter#action:name:NOTIFY_FECHAR2+action:name:NOTIFY_PLAYPAUSE2
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:93:13-96:29
+action#NOTIFY_FECHAR2
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:94:17-57
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:94:25-54
+action#NOTIFY_PLAYPAUSE2
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:95:17-60
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:95:25-57
+receiver#br.radio.DigitalWeb.BroadcastReceiverPlayPause
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:9-83
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:19-80
+receiver#br.radio.DigitalWeb.BroadcastReceiverSair
+ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:9-78
+	android:name
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:19-75
+uses-sdk
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ae0fcf4f66af653d1a7be025cf0ffc36\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ae0fcf4f66af653d1a7be025cf0ffc36\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3dd6212fb69fb3178339ba446ee6c6e3\firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3dd6212fb69fb3178339ba446ee6c6e3\firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\370fd0bf6409762f0387b8f0c3512373\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\370fd0bf6409762f0387b8f0c3512373\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cea9079f0bf8c388823635c3912fd1d9\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cea9079f0bf8c388823635c3912fd1d9\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3d0335a274b0854614acfdeae9c04374\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3d0335a274b0854614acfdeae9c04374\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\7baebf2feefd3963cb83aeb7b3520999\exoplayer-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\7baebf2feefd3963cb83aeb7b3520999\exoplayer-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\dcf9a919cec009f0c35d9a752ba4aca2\exoplayer-ui-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\dcf9a919cec009f0c35d9a752ba4aca2\exoplayer-ui-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3f31f59e0cb6d2fe765e2637409eea27\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3f31f59e0cb6d2fe765e2637409eea27\play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\8de3d97f70b44f5883eb87d1f3bc7d13\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\8de3d97f70b44f5883eb87d1f3bc7d13\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\47c5731289ca8f31c16f6747f4fb79ac\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\47c5731289ca8f31c16f6747f4fb79ac\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\30be060ee7b2fe78ad69db622db3392c\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\30be060ee7b2fe78ad69db622db3392c\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a17e3237db6bc3c614f2fe866e724d5c\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a17e3237db6bc3c614f2fe866e724d5c\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\c2a3e88ce03194030dedba48498f1a50\gridlayout-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\c2a3e88ce03194030dedba48498f1a50\gridlayout-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a29eef0c8ef3022235b061ee95b088f6\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a29eef0c8ef3022235b061ee95b088f6\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f7d44c51858d7e81e2b625aff3a5f6ba\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f7d44c51858d7e81e2b625aff3a5f6ba\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\1f84353876751a1db80f9ce4b3a73a7c\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\1f84353876751a1db80f9ce4b3a73a7c\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\69af4c3aa7a1246fe331eca0ecf7c176\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\69af4c3aa7a1246fe331eca0ecf7c176\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ea0b370dfbeda0072dcd0a548b6744c9\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ea0b370dfbeda0072dcd0a548b6744c9\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\471afc198ea358b72d134570ffa1f477\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\471afc198ea358b72d134570ffa1f477\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\e1540c04539f58abc30e9b1e3315acfa\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\e1540c04539f58abc30e9b1e3315acfa\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\45df82c131d1cf352354771096ee9206\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\45df82c131d1cf352354771096ee9206\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\855f8d6e715c1002636f4d083aa83420\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\855f8d6e715c1002636f4d083aa83420\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\48821a5a63cacbc1530c6384876d2b38\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\48821a5a63cacbc1530c6384876d2b38\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f2b4e9b4d4b3fab8fdb968de21d09b07\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f2b4e9b4d4b3fab8fdb968de21d09b07\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3ce3d1afe01bc79a5206a0763e9d341f\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3ce3d1afe01bc79a5206a0763e9d341f\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a037d926a90914fcbe19a88b92b2e081\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\a037d926a90914fcbe19a88b92b2e081\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\fff1230d52b1e3545883ff345df56bb6\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\fff1230d52b1e3545883ff345df56bb6\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ebb617fde759241d856d92b10195ccc0\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\ebb617fde759241d856d92b10195ccc0\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cd1395d69461479570d97f029a1e82eb\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\cd1395d69461479570d97f029a1e82eb\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b99fba2c9314abede9a37d4cc56cf00e\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b99fba2c9314abede9a37d4cc56cf00e\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f8df5dc4da130343843645d2efa08da0\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\f8df5dc4da130343843645d2efa08da0\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b4b6b2b7f2dccb1f5124f0ff33e953d3\exoplayer-dash-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b4b6b2b7f2dccb1f5124f0ff33e953d3\exoplayer-dash-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9fd257584f47507e43a376cd20111218\exoplayer-hls-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9fd257584f47507e43a376cd20111218\exoplayer-hls-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9ed2e9c659a5640cc331cfdad7a9f932\exoplayer-smoothstreaming-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9ed2e9c659a5640cc331cfdad7a9f932\exoplayer-smoothstreaming-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\bb8f46d9833929addceb775b7647efc8\exoplayer-core-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.8.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\bb8f46d9833929addceb775b7647efc8\exoplayer-core-2.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\4b0632a0f74e6700f12806d13a70d1c1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\4b0632a0f74e6700f12806d13a70d1c1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\8eb43ac06a3b72131678e64996db1af0\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\8eb43ac06a3b72131678e64996db1af0\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9383c8af352789bf0555dcd4635f5552\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9383c8af352789bf0555dcd4635f5552\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\1722dabe87e24c9774cd89961248b7fd\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\1722dabe87e24c9774cd89961248b7fd\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3e2083ce3f99f60a8e73e16db893919b\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3e2083ce3f99f60a8e73e16db893919b\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9109b62b8a519b8931c00d71b7fa8eb8\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\9109b62b8a519b8931c00d71b7fa8eb8\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\2212564751a3bfd00676c7c2907dad1a\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\2212564751a3bfd00676c7c2907dad1a\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\884b235647fc38b9a52b1a8459ce3a9a\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\884b235647fc38b9a52b1a8459ce3a9a\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3323f115b8ac38652ec3bbe7cb8d8a1a\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\3323f115b8ac38652ec3bbe7cb8d8a1a\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+		ADDED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+		INJECTED from C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\caa0d89a3f9644e174be06ae47c293e9\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\32c26535de0c1701301fda060ff53e45\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\b16247f9c40809ee871ed587edbed717\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\EDIMILSON BORGES\.gradle\caches\transforms-2\files-2.1\d227c7e7e52885ac7dd6cedc888ad997\support-v4-26.1.0\AndroidManifest.xml:27:13-51

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- shape serve para fazer o desenho
+    android:shape="rectangle" ( desenha um retangulo )
+    android:shape="oval" ( desenha um circulo )
+    android:shape="line" ( desenha uma linha )
+    android:shape="ring" ( desenha uma linha riscado )
+    android:useLevel="true"
+    android:dither="true"
+    android:innerRadius="50dp"
+    android:innerRadiusRatio="10"
+    android:thickness="13dp"
+    android:thicknessRatio="17"
+    android:tint="@color/colorTextIcons" ( adiciona uma cor sólida )
+    android:tintMode="src_over"
+    android:visible="true"
+ -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <!-- corners serve para arredondamento de cantos:
+     android:topLeftRadius="100dp" ( Topo esquerdo )
+     android:topRightRadius="200dp" ( Topo direito )
+     android:bottomLeftRadius="200dp" ( Fundo esquerdo )
+     android:bottomRightRadius="100dp" ( Fundo direito )
+     -->
+
+    <!-- solid serve para colocar uma cor sólida -->
+    <!--   <solid
+         android:color="@android:color/holo_red_light"
+         /> -->
+
+    <!-- gradient também serve para colocar uma cor mas várias cores -->
+    <gradient
+        android:angle="90"
+        android:endColor="@color/colorPrimary"
+        android:startColor="@color/colorGradient"
+        />
+
+    <!-- stroke serve para fazer um contorno
+        android:width="2dp" ( grossura do contorno )
+        android:color="#000000" ( cor do contorno )
+        android:dashGap="10dp" ( espaço sem contorno )
+        android:dashWidth="20dp" ( espaço com contorno )
+    -->
+
+    <!-- padding serve para definir o espaçamento -->
+
+
+    <!-- size serve para definir o tamanho
+        android:height="600dp" ( altura )
+        android:width="100dp" ( largura )
+     -->
+
+
+</shape>
