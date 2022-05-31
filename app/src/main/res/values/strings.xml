@@ -34,4 +34,7 @@
     <string name="Servidor_encontrado">Servidor encontrado...</string>
     <string name="escutar_no_pc">Escutar no pc</string>
     <string name="grade_de_programa_o">Programação</string>
+    <string name="aguarde">Aguarde...</string>
+    <string name="ops">Ops.</string>
+    <string name="stop">Stop</string>
 </resources>

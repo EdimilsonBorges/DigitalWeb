@@ -39,8 +39,8 @@
 23-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:16:9-44
 24        <activity
 24-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:21:9-35:20
-25            android:name="br.radio.DigitalWeb.MainActivityPrincipal"
-25-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:22:13-69
+25            android:name="br.radio.DigitalWeb.Activitys.MainActivityPrincipal"
+25-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:22:13-79
 26            android:label="@string/title_activity_main_principal"
 26-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:23:13-66
 27            android:launchMode="singleTop"
@@ -66,8 +66,8 @@
 38        </activity>
 39        <activity
 39-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:37:9-41:20
-40            android:name="br.radio.DigitalWeb.ProgramacaoActivity"
-40-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:37:19-54
+40            android:name="br.radio.DigitalWeb.Activitys.ProgramacaoActivity"
+40-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:37:19-64
 41            android:label="@string/title_activity_main_principal"
 41-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:38:13-66
 42            android:screenOrientation="portrait"
@@ -77,8 +77,8 @@
 44        </activity>
 45        <activity
 45-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:43:9-50:20
-46            android:name="br.radio.DigitalWeb.ActivityCustonDialogTemporizador"
-46-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:44:13-61
+46            android:name="br.radio.DigitalWeb.Activitys.ActivityCustonDialogTemporizador"
+46-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:44:13-71
 47            android:label="@string/title_activity_main_principal"
 47-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:45:13-66
 48            android:launchMode="singleTop"
@@ -90,8 +90,8 @@
 51        </activity>
 52        <activity
 52-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:52:9-59:20
-53            android:name="br.radio.DigitalWeb.ActivityPedidos"
-53-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:53:13-44
+53            android:name="br.radio.DigitalWeb.Activitys.ActivityPedidos"
+53-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:53:13-54
 54            android:label="@string/title_activity_main_principal"
 54-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:54:13-66
 55            android:launchMode="singleTop"
@@ -103,8 +103,8 @@
 58        </activity>
 59        <activity
 59-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:61:9-68:20
-60            android:name="br.radio.DigitalWeb.ActivityHistorico"
-60-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:62:13-46
+60            android:name="br.radio.DigitalWeb.Activitys.ActivityHistorico"
+60-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:62:13-56
 61            android:label="@string/title_activity_main_principal"
 61-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:63:13-66
 62            android:launchMode="singleTop"
@@ -117,8 +117,8 @@
 66
 67        <service
 67-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:70:9-80:19
-68            android:name="br.radio.DigitalWeb.PlayerService"
-68-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:71:13-61
+68            android:name="br.radio.DigitalWeb.Services.PlayerService"
+68-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:71:13-70
 69            android:exported="false"
 69-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:72:13-37
 70            android:label="PlayerService"
@@ -138,8 +138,8 @@
 77        </service>
 78        <service
 78-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:81:9-85:44
-79            android:name="br.radio.DigitalWeb.SleepTimerService"
-79-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:82:13-65
+79            android:name="br.radio.DigitalWeb.Services.SleepTimerService"
+79-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:82:13-74
 80            android:exported="false"
 80-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:83:13-37
 81            android:label="SleepTimerService"
@@ -157,9 +157,9 @@
 86-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:89:25-74
 87            </intent-filter>
 88        </receiver>
-89        <receiver android:name="br.radio.DigitalWeb.MyRadioNotificationBroadcastReceiver" >
+89        <receiver android:name="br.radio.DigitalWeb.BroadcastReceiver.MyRadioNotificationBroadcastReceiver" >
 89-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:92:9-97:20
-89-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:92:19-90
+89-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:92:19-108
 90            <intent-filter>
 90-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:93:13-96:29
 91                <action android:name="NOTIFY_FECHAR2" />
@@ -170,12 +170,12 @@
 92-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:95:25-57
 93            </intent-filter>
 94        </receiver>
-95        <receiver android:name="br.radio.DigitalWeb.BroadcastReceiverPlayPause" />
-95-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:9-83
-95-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:19-80
-96        <receiver android:name="br.radio.DigitalWeb.BroadcastReceiverSair" />
-96-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:9-78
-96-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:19-75
+95        <receiver android:name="br.radio.DigitalWeb.BroadcastReceiver.BroadcastReceiverPlayPause" />
+95-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:9-101
+95-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:98:19-98
+96        <receiver android:name="br.radio.DigitalWeb.BroadcastReceiver.BroadcastReceiverSair" />
+96-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:9-96
+96-->C:\aplicativosandoid\DigitalWeb\app\src\main\AndroidManifest.xml:99:19-93
 97        <!--
 98 ATTENTION: This was auto-generated to add Google Play services to your project for
 99     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.

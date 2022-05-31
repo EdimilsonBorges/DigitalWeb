@@ -2011,6 +2011,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_settings
+string aguarde
 string app_name
 string appbar_scrolling_view_behavior
 string aumentar_ou_diminuir_volume
@@ -2099,6 +2100,7 @@ string mais_nome
 string mtrl_chip_close_icon_content_description
 string navigation_drawer_close
 string navigation_drawer_open
+string ops
 string paradoNome
 string password_toggle_content_description
 string path_password_eye
@@ -2114,6 +2116,7 @@ string semConecao
 string sobreNome
 string sobre_nome
 string status_bar_notification_info_overflow
+string stop
 string title_activity_main_principal
 string tocandoNome
 string versaoNome

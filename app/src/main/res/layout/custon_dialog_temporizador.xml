@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorGradient"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="br.radio.DigitalWeb.ActivityCustonDialogTemporizador">
+    tools:context="br.radio.DigitalWeb.Activitys.ActivityCustonDialogTemporizador">
 
 
     <LinearLayout

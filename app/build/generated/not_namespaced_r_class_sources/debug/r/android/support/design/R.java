@@ -1281,21 +1281,21 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f0f0025;
         public static final int abc_shareactionprovider_share_with_application = 0x7f0f0026;
         public static final int abc_toolbar_collapse_description = 0x7f0f0027;
-        public static final int appbar_scrolling_view_behavior = 0x7f0f002a;
-        public static final int bottom_sheet_behavior = 0x7f0f002f;
-        public static final int character_counter_content_description = 0x7f0f0033;
-        public static final int character_counter_pattern = 0x7f0f0034;
-        public static final int fab_transformation_scrim_behavior = 0x7f0f0070;
-        public static final int fab_transformation_sheet_behavior = 0x7f0f0071;
-        public static final int hide_bottom_view_on_scroll_behavior = 0x7f0f0079;
-        public static final int mtrl_chip_close_icon_content_description = 0x7f0f007e;
-        public static final int password_toggle_content_description = 0x7f0f0082;
-        public static final int path_password_eye = 0x7f0f0083;
-        public static final int path_password_eye_mask_strike_through = 0x7f0f0084;
-        public static final int path_password_eye_mask_visible = 0x7f0f0085;
-        public static final int path_password_strike_through = 0x7f0f0086;
-        public static final int search_menu_title = 0x7f0f008b;
-        public static final int status_bar_notification_info_overflow = 0x7f0f008f;
+        public static final int appbar_scrolling_view_behavior = 0x7f0f002b;
+        public static final int bottom_sheet_behavior = 0x7f0f0030;
+        public static final int character_counter_content_description = 0x7f0f0034;
+        public static final int character_counter_pattern = 0x7f0f0035;
+        public static final int fab_transformation_scrim_behavior = 0x7f0f0071;
+        public static final int fab_transformation_sheet_behavior = 0x7f0f0072;
+        public static final int hide_bottom_view_on_scroll_behavior = 0x7f0f007a;
+        public static final int mtrl_chip_close_icon_content_description = 0x7f0f007f;
+        public static final int password_toggle_content_description = 0x7f0f0084;
+        public static final int path_password_eye = 0x7f0f0085;
+        public static final int path_password_eye_mask_strike_through = 0x7f0f0086;
+        public static final int path_password_eye_mask_visible = 0x7f0f0087;
+        public static final int path_password_strike_through = 0x7f0f0088;
+        public static final int search_menu_title = 0x7f0f008d;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0091;
     }
     public static final class style {
         private style() {}
