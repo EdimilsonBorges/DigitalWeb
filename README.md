@@ -2,7 +2,7 @@
 
 <img alt="Logo" src="https://github.com/EdimilsonBorges/DigitalWeb/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="120" />
 
-### A rádio digital web de São José do Piauí é uma web rádio para sua melhor curtição, muitas músicas atualizadas e com ótima qualidade, 24 horas por dia de funcionamento.
+### A Rádio Digital Web é uma web rádio para sua melhor curtição, muitas músicas atualizadas e com ótima qualidade, 24 horas por dia de funcionamento.
 
 
 #### Principais funcionalidades.
