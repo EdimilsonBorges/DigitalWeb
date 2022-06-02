@@ -12,11 +12,13 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
+import android.util.Log;
 import android.widget.RemoteViews;
 
 import br.radio.DigitalWeb.Activitys.MainActivityPrincipal;
 import br.radio.DigitalWeb.AsynData.AsynDataClassStatus;
 import br.radio.DigitalWeb.AsynData.AsynDataClassStatusMetaDados;
+import br.radio.DigitalWeb.BroadcastReceiver.BroadcastReceiverSair;
 import br.radio.DigitalWeb.R;
 import br.radio.DigitalWeb.Status.Status;
 
@@ -28,6 +30,7 @@ public class RadioNotificacao {
 
     private static final String ID_STRING_NOTIFICATION = "15";
     public static final int ID_INT_NOTIFICATION = 15;
+    private static final String LOG_TAG = RadioNotificacao.class.getSimpleName();
 
     /* Main class variáveis */
     private static Notification mNotification;
@@ -51,7 +54,6 @@ public class RadioNotificacao {
         Intent notifyIntente = new Intent(context, MainActivityPrincipal.class);
 
         notifyIntente.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-        //notifyIntente.setFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS | Intent.FLAG_ACTIVITY_NO_HISTORY);
         PendingIntent pendingIntent = PendingIntent.getActivities(context,0, new Intent[]{notifyIntente},PendingIntent.FLAG_UPDATE_CURRENT);
 
         notificacao.setContentIntent(pendingIntent);
@@ -130,7 +132,7 @@ public class RadioNotificacao {
         try{
             service.startForeground(ID_INT_NOTIFICATION, mNotification);
         }catch (Exception e){
-            e.getMessage();
+            Log.e(LOG_TAG, "Exception: " + e.getMessage());
         }
     }
 
@@ -151,7 +153,7 @@ public class RadioNotificacao {
             NotificationManager notificationManager = (NotificationManager) service.getSystemService(Context.NOTIFICATION_SERVICE);
             notificationManager.notify(ID_INT_NOTIFICATION, mNotification);
         }catch (Exception e){
-            e.getMessage();
+            Log.e(LOG_TAG, "Exception: " + e.getMessage());
         }
 
     }

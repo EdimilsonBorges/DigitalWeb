@@ -41,8 +41,8 @@ public class ActivityHistorico extends AppCompatActivity {
 
         LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver, new IntentFilter(FECHAR_TODAS_ACTIVITYS));
 
-        myWebView = (WebView) findViewById(R.id.webviewHistorico);
-        progress_historico = (ProgressBar) findViewById(R.id.progress_historico);
+        myWebView = findViewById(R.id.webviewHistorico);
+        progress_historico = findViewById(R.id.progress_historico);
         webSettings = myWebView.getSettings();
         webSettings.setDomStorageEnabled(true);
         webSettings.setJavaScriptEnabled(true);

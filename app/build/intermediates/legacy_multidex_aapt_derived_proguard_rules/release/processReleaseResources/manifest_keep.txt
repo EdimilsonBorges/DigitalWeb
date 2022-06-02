@@ -1,4 +1,0 @@
-# Referenced at C:\aplicativosandoid\DigitalWeb\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:16
--keep class android.support.multidex.MultiDexApplication { <init>(); }
-# Referenced at C:\aplicativosandoid\DigitalWeb\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:16
--keep class br.radio.DigitalWeb.whateverString { <init>(); }

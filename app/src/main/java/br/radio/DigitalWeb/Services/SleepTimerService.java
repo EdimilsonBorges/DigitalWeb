@@ -1,5 +1,6 @@
 package br.radio.DigitalWeb.Services;
 
+import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +15,7 @@ import br.radio.DigitalWeb.Activitys.ActivityCustonDialogTemporizador;
 import br.radio.DigitalWeb.Activitys.MainActivityPrincipal;
 import br.radio.DigitalWeb.AsynData.AsynDataClass;
 import br.radio.DigitalWeb.AsynData.AsynDataClassStatus;
+import br.radio.DigitalWeb.R;
 import br.radio.DigitalWeb.Status.Status;
 
 public class SleepTimerService extends Service {
@@ -22,6 +24,7 @@ public class SleepTimerService extends Service {
     public static boolean passandoTempo;
     public static long tempoLeftInMilissegundos;
     public static Intent it;
+    @SuppressLint("StaticFieldLeak")
     private static Context context;
     public static String formatoDoTempo;
 
@@ -88,7 +91,7 @@ public class SleepTimerService extends Service {
             if(Status.isTocando() && AsynDataClass.dataurl != null){
                 contarTempo();
                 Toast.makeText(getApplication(),"Tempo de desligamento iniciado",Toast.LENGTH_LONG).show();
-                ActivityCustonDialogTemporizador.ativarDesativar.setText("DESATIVAR");
+                ActivityCustonDialogTemporizador.ativarDesativar.setText(R.string.desativar);
                 ActivityCustonDialogTemporizador.maisCinco.setVisibility(View.INVISIBLE);
                 ActivityCustonDialogTemporizador.menosCinco.setVisibility(View.INVISIBLE);
             }else {
@@ -97,7 +100,7 @@ public class SleepTimerService extends Service {
         }else {
             resetarTempo();
             countDownTimer.cancel();
-            ActivityCustonDialogTemporizador.ativarDesativar.setText("ATIVAR");
+            ActivityCustonDialogTemporizador.ativarDesativar.setText(R.string.ativar);
             ActivityCustonDialogTemporizador.maisCinco.setVisibility(View.VISIBLE);
             ActivityCustonDialogTemporizador.menosCinco.setVisibility(View.VISIBLE);
             Toast.makeText(getApplication(),"Tempo de desligamento cancelado",Toast.LENGTH_LONG).show();

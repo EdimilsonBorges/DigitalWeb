@@ -14,6 +14,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
 import android.provider.Settings;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.media.MediaBrowserCompat;
 import android.support.v4.media.MediaBrowserServiceCompat;
@@ -21,6 +22,7 @@ import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.session.MediaButtonReceiver;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -69,6 +71,7 @@ import static br.radio.DigitalWeb.Activitys.MainActivityPrincipal.btmPlay;
 public class  PlayerService extends MediaBrowserServiceCompat {
 
     private NotificationManager notificationManager;
+    @SuppressLint("StaticFieldLeak")
     public static Context context;
     private Handler handlerMediaPlayer;
     public static MediaSessionCompat mediaSessionCompat;
@@ -132,48 +135,45 @@ public class  PlayerService extends MediaBrowserServiceCompat {
         // Usado para indicar um ganho de foco de áudio, ou uma solicitação de foco de áudio, de duração desconhecida.
         // Seu app recebeu o foco de áudio novamente
         // Aumentar volume para normal, reiniciar a reprodução se necessário
-        AudioManager.OnAudioFocusChangeListener focoDeAudio = new AudioManager.OnAudioFocusChangeListener() {
-            @Override
-            public void onAudioFocusChange(int focusChange) {
-                switch (focusChange) {
-                    case AudioManager.AUDIOFOCUS_LOSS: {
-                        // Perda permanente de foco de áudio
-                        // Usado para indicar uma perda de foco de áudio de duração desconhecida.
-                        if (simpleExoPlayer != null) {
-                            simpleExoPlayer.setVolume(0.0f);
-                            setMediaPlaybackState(PlaybackStateCompat.STATE_STOPPED);
-                        }
-                        break;
+        AudioManager.OnAudioFocusChangeListener focoDeAudio = focusChange -> {
+            switch (focusChange) {
+                case AudioManager.AUDIOFOCUS_LOSS: {
+                    // Perda permanente de foco de áudio
+                    // Usado para indicar uma perda de foco de áudio de duração desconhecida.
+                    if (simpleExoPlayer != null) {
+                        simpleExoPlayer.setVolume(0.0f);
+                        setMediaPlaybackState(PlaybackStateCompat.STATE_STOPPED);
                     }
-                    case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT: {
-                        // Pausa a reprodução
-                        //Usado para indicar uma perda transitória de foco de áudio.
-                        if (simpleExoPlayer != null) {
-                            simpleExoPlayer.setVolume(0.0f);
-                            setMediaPlaybackState(PlaybackStateCompat.STATE_STOPPED);
-                        }
-                        break;
+                    break;
+                }
+                case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT: {
+                    // Pausa a reprodução
+                    //Usado para indicar uma perda transitória de foco de áudio.
+                    if (simpleExoPlayer != null) {
+                        simpleExoPlayer.setVolume(0.0f);
+                        setMediaPlaybackState(PlaybackStateCompat.STATE_STOPPED);
                     }
-                    case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK: {
-                        // Abaixe o volume, continua reproduzindo
-                        // Usado para indicar uma perda transitória de foco de áudio onde o perdedor do foco de
-                        // áudio pode diminuir seu volume de saída se quiser continuar jogando (também conhecido como "abaixamento"), já que o novo proprietário de foco não exige que os outros fiquem em silêncio .
-                        if (simpleExoPlayer != null) {
-                            simpleExoPlayer.setVolume(0.0f);
-                            setMediaPlaybackState(PlaybackStateCompat.STATE_STOPPED);
-                        }
-                        break;
+                    break;
+                }
+                case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK: {
+                    // Abaixe o volume, continua reproduzindo
+                    // Usado para indicar uma perda transitória de foco de áudio onde o perdedor do foco de
+                    // áudio pode diminuir seu volume de saída se quiser continuar jogando (também conhecido como "abaixamento"), já que o novo proprietário de foco não exige que os outros fiquem em silêncio .
+                    if (simpleExoPlayer != null) {
+                        simpleExoPlayer.setVolume(0.0f);
+                        setMediaPlaybackState(PlaybackStateCompat.STATE_STOPPED);
                     }
-                    case AudioManager.AUDIOFOCUS_GAIN: {
-                        //Usado para indicar um ganho de foco de áudio, ou uma solicitação de foco de áudio, de duração desconhecida.
-                        // Seu app recebeu o foco de áudio novamente
-                        // Aumentar volume para normal, reiniciar a reprodução se necessário
-                        if (simpleExoPlayer != null) {
-                            simpleExoPlayer.setVolume(1.0f);
-                            setMediaPlaybackState(PlaybackStateCompat.STATE_PLAYING);
-                        }
-                        break;
+                    break;
+                }
+                case AudioManager.AUDIOFOCUS_GAIN: {
+                    //Usado para indicar um ganho de foco de áudio, ou uma solicitação de foco de áudio, de duração desconhecida.
+                    // Seu app recebeu o foco de áudio novamente
+                    // Aumentar volume para normal, reiniciar a reprodução se necessário
+                    if (simpleExoPlayer != null) {
+                        simpleExoPlayer.setVolume(1.0f);
+                        setMediaPlaybackState(PlaybackStateCompat.STATE_PLAYING);
                     }
+                    break;
                 }
             }
         };
@@ -262,7 +262,7 @@ public class  PlayerService extends MediaBrowserServiceCompat {
 
         MediaButtonReceiver.handleIntent(mediaSessionCompat, intent);
 
-          if(conexao.estaConectado()) {
+          if(conexao.isConnect()) {
 
             if(AsynDataClass.dataurl != null){
                 if(Status.isTocando()){
@@ -270,7 +270,7 @@ public class  PlayerService extends MediaBrowserServiceCompat {
                     parar();
 
                 }else{
-                    if(!Status.isTocando() && !Status.isConectando()){
+                    if(!Status.isConectando()){
 
                         conectando();
 
@@ -293,15 +293,12 @@ public class  PlayerService extends MediaBrowserServiceCompat {
             if(btmPlay != null){
 
                 Snackbar.make(MainActivityPrincipal.content_main_activity_principal, R.string.semConecao, Snackbar.LENGTH_LONG)
-                        .setAction("CONECTAR", new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                try {
-                                    Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
-                                    context.startActivity(it);
-                                } catch (Exception e) {
-                                    e.getMessage();
-                                }
+                        .setAction("CONECTAR", view -> {
+                            try {
+                                Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
+                                context.startActivity(it);
+                            } catch (Exception e) {
+                                Log.e(LOG_TAG, "Exception: " + e.getMessage());
                             }
                         }).show();
 
@@ -311,7 +308,7 @@ public class  PlayerService extends MediaBrowserServiceCompat {
                     Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
                     context.startActivity(it);
                 } catch (Exception e) {
-                    e.getMessage();
+                    Log.e(LOG_TAG, "Exception: " + e.getMessage());
                 }
                 Toast.makeText(this,"Você não está conectado com a internet",Toast.LENGTH_LONG).show();
             }
@@ -338,7 +335,7 @@ public class  PlayerService extends MediaBrowserServiceCompat {
         try{
             notificationManager.cancel(RadioNotificacao.ID_INT_NOTIFICATION);
         }catch (Exception e){
-            e.getMessage();
+            Log.e(LOG_TAG, "Exception: " + e.getMessage());
         }
 
         mediaThred.interrupt();
@@ -346,15 +343,12 @@ public class  PlayerService extends MediaBrowserServiceCompat {
         stopService(it2);
 
         if(btmPlay != null){
-            handlerMediaPlayer.post(new Runnable() {
-                @Override
-                public void run() {
-                    MainActivityPrincipal.textView_titulo.setText(R.string.paradoNome);
-                    MainActivityPrincipal.textView_artista.setText("Stop");
-                    MainActivityPrincipal.imageLogo.setImageDrawable(context.getResources().getDrawable(R.drawable.logo));
-                    btmPlay.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_play));
-                    // MainActivityPrincipal.animation.stop();
-                }
+            handlerMediaPlayer.post(() -> {
+                MainActivityPrincipal.textView_titulo.setText(R.string.paradoNome);
+                MainActivityPrincipal.textView_artista.setText(R.string.stop);
+                MainActivityPrincipal.imageLogo.setImageDrawable(context.getResources().getDrawable(R.drawable.logo));
+                btmPlay.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_play));
+                // MainActivityPrincipal.animation.stop();
             });
         }
 
@@ -370,12 +364,12 @@ public class  PlayerService extends MediaBrowserServiceCompat {
 
 
     @Override
-    public BrowserRoot onGetRoot(String s, int i, Bundle bundle) {
+    public BrowserRoot onGetRoot(@NonNull String s, int i, Bundle bundle) {
         return null;
     }
 
     @Override
-    public void onLoadChildren(String s, Result<List<MediaBrowserCompat.MediaItem>> result) {
+    public void onLoadChildren(@NonNull String s, @NonNull Result<List<MediaBrowserCompat.MediaItem>> result) {
 
     }
 
@@ -388,7 +382,7 @@ public class  PlayerService extends MediaBrowserServiceCompat {
         try{
             notificationManager.cancel(RadioNotificacao.ID_INT_NOTIFICATION);
         }catch (Exception e){
-            e.getMessage();
+            Log.e(LOG_TAG, "Exception: " + e.getMessage());
         }
 
 
@@ -455,16 +449,13 @@ public class  PlayerService extends MediaBrowserServiceCompat {
 
 
                         if(btmPlay != null){
-                            handlerMediaPlayer.post(new Runnable() {
-                                @Override
-                                public void run(){
+                            handlerMediaPlayer.post(() -> {
 
-                                    MainActivityPrincipal.textView_titulo.setText(AsynDataClassStatus.titulo);
-                                    MainActivityPrincipal.textView_artista.setText(AsynDataClassStatus.artista);
-                                    btmPlay.setImageDrawable(getResources().getDrawable(R.mipmap.ic_pause));
-                                    //.animation.start();
+                                MainActivityPrincipal.textView_titulo.setText(AsynDataClassStatus.titulo);
+                                MainActivityPrincipal.textView_artista.setText(AsynDataClassStatus.artista);
+                                btmPlay.setImageDrawable(getResources().getDrawable(R.mipmap.ic_pause));
+                                //.animation.start();
 
-                                }
                             });
                         }
 
@@ -539,7 +530,7 @@ public class  PlayerService extends MediaBrowserServiceCompat {
         try{
             notificationManager.cancel(RadioNotificacao.ID_INT_NOTIFICATION);
         }catch (Exception e){
-            e.getMessage();
+            Log.e(LOG_TAG, "Exception: " + e.getMessage());
         }
 
         mediaThred.interrupt();

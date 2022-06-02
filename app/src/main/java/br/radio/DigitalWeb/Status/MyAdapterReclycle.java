@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,9 +15,6 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.easyandroidanimations.library.Animation;
-import com.easyandroidanimations.library.AnimationListener;
 import com.easyandroidanimations.library.FlipHorizontalAnimation;
 
 import java.io.IOException;
@@ -26,6 +24,7 @@ import java.net.URL;
 import java.util.List;
 
 import br.radio.DigitalWeb.R;
+import br.radio.DigitalWeb.Services.PlayerService;
 
 
 public class MyAdapterReclycle extends RecyclerView.Adapter<MyAdapterReclycle.MyViewHolder>{
@@ -33,6 +32,8 @@ public class MyAdapterReclycle extends RecyclerView.Adapter<MyAdapterReclycle.My
     public Context context;
     public Bitmap bitmap;
     public Handler handler;
+    private static final String LOG_TAG = MyAdapterReclycle.class.getSimpleName();
+
 
 
     public MyAdapterReclycle(Context context, List<SetDados> setDados){
@@ -101,22 +102,13 @@ public class MyAdapterReclycle extends RecyclerView.Adapter<MyAdapterReclycle.My
                 try{
                     setBitmapFromURL(urlImagemItem,imageViewItem);
                 }catch (Exception e){
-                    e.getMessage();
+                    Log.e(LOG_TAG, "Exception: " + e.getMessage());
                 }
             }
 
-            imageViewItem.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    imageViewItem.setClickable(false);
-                    new FlipHorizontalAnimation(imageViewItem).setDuration(700).setListener(new AnimationListener() {
-                        @Override
-                        public void onAnimationEnd(Animation animation) {
-                            imageViewItem.setClickable(true);
-                        }
-
-                    }).animate();
-                }
+            imageViewItem.setOnClickListener(v -> {
+                imageViewItem.setClickable(false);
+                new FlipHorizontalAnimation(imageViewItem).setDuration(700).setListener(animation -> imageViewItem.setClickable(true)).animate();
             });
 
         }
@@ -137,7 +129,7 @@ public class MyAdapterReclycle extends RecyclerView.Adapter<MyAdapterReclycle.My
                     handler.post(() -> imageView.setImageBitmap(myBitmapImagemItem));
 
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    Log.e(LOG_TAG, "IOException: " + e.getMessage());
                 }
             }
         }.start();

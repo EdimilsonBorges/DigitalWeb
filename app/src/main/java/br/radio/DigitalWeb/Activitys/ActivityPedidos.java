@@ -1,5 +1,6 @@
 package br.radio.DigitalWeb.Activitys;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -28,6 +29,7 @@ public class ActivityPedidos extends AppCompatActivity {
     WebSettings webSettings;
     ProgressBar progress_pedidos;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,8 +41,8 @@ public class ActivityPedidos extends AppCompatActivity {
 
         LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver, new IntentFilter(FECHAR_TODAS_ACTIVITYS));
 
-        progress_pedidos = (ProgressBar) findViewById(R.id.progress_pedidos);
-        myWebView = (WebView) findViewById(R.id.webviewPedidos);
+        progress_pedidos = findViewById(R.id.progress_pedidos);
+        myWebView = findViewById(R.id.webviewPedidos);
         // myWebView.setWebViewClient(new MyCustomWebViewClient());
         // myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
@@ -82,18 +84,14 @@ public class ActivityPedidos extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) { //Botão adicional na ToolBar
-        switch (item.getItemId()) {
-            case android.R.id.home:  //ID do seu botão (gerado automaticamente pelo android, usando como está, deve funcionar
-                if(myWebView.canGoBack()){
-                    myWebView.goBack();
-                }else {
-                    Intent it = new Intent(ActivityPedidos.this, MainActivityPrincipal.class);
-                    startActivity(it);
-                    finish();
-                }
-
-                break;
-            default:break;
+        if (item.getItemId() == android.R.id.home) {  //ID do seu botão (gerado automaticamente pelo android, usando como está, deve funcionar
+            if (myWebView.canGoBack()) {
+                myWebView.goBack();
+            } else {
+                Intent it = new Intent(ActivityPedidos.this, MainActivityPrincipal.class);
+                startActivity(it);
+                finish();
+            }
         }
         return true;
     }

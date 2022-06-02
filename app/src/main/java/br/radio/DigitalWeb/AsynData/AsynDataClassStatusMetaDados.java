@@ -9,6 +9,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v4.media.session.MediaSessionCompat;
+import android.util.Log;
 import android.widget.ImageView;
 
 import org.json.JSONException;
@@ -56,6 +57,7 @@ public class AsynDataClassStatusMetaDados {
         public static Bitmap bitmap;
         MediaSessionCompat mediaSessionCompat;
         private final Handler handlerMediaPlayer;
+        private final String LOG_TAG = AsynDataClassStatusMetaDados.class.getSimpleName();
 
         public AsynDataClassStatusMetaDados(Intent it, Context context, MediaSessionCompat mediaSessionCompat){
             this.context = context;
@@ -67,48 +69,44 @@ public class AsynDataClassStatusMetaDados {
 
     public void execute(){
         ExecutorService executorService = Executors.newSingleThreadExecutor();
-        executorService.execute(new Runnable() {
-            @Override
-            public void run() {
-                if (!SingletonUpdateStatus.getInstance().aovivo) {
-                    try {
-                        HttpHandler sh = new HttpHandler();
-                        // Making a request to url and getting response
-                        url = AsynDataClass.urlMetaData;
+        executorService.execute(() -> {
+            if (!SingletonUpdateStatus.getInstance().aovivo) {
+                try {
+                    HttpHandler sh = new HttpHandler();
+                    url = AsynDataClass.urlMetaData;
 
-                        String jsonStr = sh.makeServiceCall(url);
+                    String jsonStr = sh.makeServiceCall(url);
 
 
-                        if (jsonStr != null) {
-                            try {
-                                JSONObject jsonObj = new JSONObject(jsonStr);
+                    if (jsonStr != null) {
+                        try {
+                            JSONObject jsonObj = new JSONObject(jsonStr);
 
-                                JSONObject station = jsonObj.getJSONObject("station");
-                                singleParsedUrl = station.getString("listen_url");
+                            JSONObject station = jsonObj.getJSONObject("station");
+                            singleParsedUrl = station.getString("listen_url");
 
-                                JSONObject now_playing = jsonObj.getJSONObject("now_playing");
-                                singleParsedDuracao = now_playing.getString("duration");
-                                singleParsedDecorrido = now_playing.getString("elapsed");
-                                singleParsedRestante = now_playing.getString("remaining");
+                            JSONObject now_playing = jsonObj.getJSONObject("now_playing");
+                            singleParsedDuracao = now_playing.getString("duration");
+                            singleParsedDecorrido = now_playing.getString("elapsed");
+                            singleParsedRestante = now_playing.getString("remaining");
 
-                                JSONObject c = now_playing.getJSONObject("song");
-                                singleParsedTitulo = c.getString("title");
-                                singleParsedArtista = c.getString("artist");
-                                singleParsedArte = c.getString("art");
-                                singleParsedPlayng = "id";
+                            JSONObject c = now_playing.getJSONObject("song");
+                            singleParsedTitulo = c.getString("title");
+                            singleParsedArtista = c.getString("artist");
+                            singleParsedArte = c.getString("art");
+                            singleParsedPlayng = "id";
 
-                                post();
+                            post();
 
-                            } catch (JSONException jsonException) {
-                                jsonException.printStackTrace();
-                            }
-
-
+                        } catch (JSONException e) {
+                            Log.e(LOG_TAG, "JSONException: " + e.getMessage());
                         }
 
-                    } catch (Exception e) {
-                        e.getMessage();
+
                     }
+
+                } catch (Exception e) {
+                    Log.e(LOG_TAG, "Exception: " + e.getMessage());
                 }
             }
         });
@@ -118,79 +116,74 @@ public class AsynDataClassStatusMetaDados {
     public void post(){
 
         Handler handler = new Handler(Looper.getMainLooper());
-        handler.post(new Runnable() {
+        handler.post(() -> {
+            if (!SingletonUpdateStatus.getInstance().aovivo) {
 
-            @Override
-            public void run() {
-                if (!SingletonUpdateStatus.getInstance().aovivo) {
+                url = singleParsedUrl;
+                titulo = singleParsedTitulo;
+                artista = singleParsedArtista;
+                imagem = singleParsedArte;
+                duracao = singleParsedDuracao;
+                restante = singleParsedRestante;
+                decorrido = singleParsedDecorrido;
 
-                    url = singleParsedUrl;
-                    titulo = singleParsedTitulo;
-                    artista = singleParsedArtista;
-                    imagem = singleParsedArte;
-                    duracao = singleParsedDuracao;
-                    restante = singleParsedRestante;
-                    decorrido = singleParsedDecorrido;
+                if(decorrido != null){
+                    SingletonUpdateStatus.getInstance().tempo = Integer.parseInt(decorrido) * 1000;
+                    SingletonUpdateStatus.getInstance().duracao = Integer.parseInt(duracao) * 1000;
+                }
 
-                    if(decorrido != null){
-                        SingletonUpdateStatus.getInstance().tempo = Integer.parseInt(decorrido) * 1000;
-                        SingletonUpdateStatus.getInstance().duracao = Integer.parseInt(duracao) * 1000;
+
+                if (!singleParsedTitulo.isEmpty()) {
+                    AsynDataClassStatus.titulo = titulo;
+                } else {
+                    AsynDataClassStatus.titulo = "Tocando";
+                }
+                if (!singleParsedArtista.isEmpty()) {
+                    AsynDataClassStatus.artista = artista;
+                } else {
+                    AsynDataClassStatus.artista = "No Ar";
+                }
+
+                PlayerService.MetadataBuild(context);
+
+                if (imagem != null && imagem.equals("http://34.67.184.188/static/img/generic_song.jpg")) {
+                    bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.logo);
+
+                    if(Status.isTocando()){
+
+                        updateNotification();
+
+                        if(MainActivityPrincipal.btmPlay != null){
+
+                            MainActivityPrincipal.imageLogo.setImageBitmap(bitmap);
+                        }
                     }
 
+                } else {
 
-                    if (!singleParsedTitulo.isEmpty()) {
-                        AsynDataClassStatus.titulo = titulo;
-                    } else {
-                        AsynDataClassStatus.titulo = "Tocando";
-                    }
-                    if (!singleParsedArtista.isEmpty()) {
-                        AsynDataClassStatus.artista = artista;
-                    } else {
-                        AsynDataClassStatus.artista = "No Ar";
-                    }
+                    try {
+                        setBitmapFromURL(imagem, MainActivityPrincipal.imageLogo);
+                    } catch (Exception e) {
 
-                    PlayerService.MetadataBuild(context);
-
-                    if (imagem != null && imagem.equals("http://34.67.184.188/static/img/generic_song.jpg")) {
                         bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.logo);
 
                         if(Status.isTocando()){
 
                             updateNotification();
 
-                            if(MainActivityPrincipal.btmPlay != null){
-
+                            if(MainActivityPrincipal.btmPlay != null) {
                                 MainActivityPrincipal.imageLogo.setImageBitmap(bitmap);
                             }
-                        }
-
-                    } else {
-
-                        try {
-                            setBitmapFromURL(imagem, MainActivityPrincipal.imageLogo);
-                        } catch (Exception e) {
-                            e.getMessage();
-
-                            bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.logo);
-
-                            if(Status.isTocando()){
-
-                                updateNotification();
-
-                                if(MainActivityPrincipal.btmPlay != null) {
-                                    MainActivityPrincipal.imageLogo.setImageBitmap(bitmap);
-                                }
-
-                            }
 
                         }
+
                     }
+                }
 
 
-                    if (MainActivityPrincipal.btmPlay != null && Status.isTocando()) {
-                        MainActivityPrincipal.textView_titulo.setText(AsynDataClassStatus.titulo);
-                        MainActivityPrincipal.textView_artista.setText(AsynDataClassStatus.artista);
-                    }
+                if (MainActivityPrincipal.btmPlay != null && Status.isTocando()) {
+                    MainActivityPrincipal.textView_titulo.setText(AsynDataClassStatus.titulo);
+                    MainActivityPrincipal.textView_artista.setText(AsynDataClassStatus.artista);
                 }
             }
         });
@@ -220,7 +213,7 @@ public class AsynDataClassStatusMetaDados {
                     });
 
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    Log.e(LOG_TAG, "IOException: " + e.getMessage());
                 }
             }
         }.start();

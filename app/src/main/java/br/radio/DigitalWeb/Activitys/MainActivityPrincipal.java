@@ -6,7 +6,6 @@ import android.app.NotificationManager;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
@@ -20,21 +19,19 @@ import android.support.multidex.MultiDex;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
-
-import com.easyandroidanimations.library.Animation;
-import com.easyandroidanimations.library.AnimationListener;
 import com.easyandroidanimations.library.FlipHorizontalAnimation;
 
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.widget.Toast;
 
 import br.radio.DigitalWeb.AsynData.AsynDataClass;
 import br.radio.DigitalWeb.AsynData.AsynDataClassStatus;
@@ -53,8 +50,6 @@ import static br.radio.DigitalWeb.Services.PlayerService.FECHAR_TODAS_ACTIVITYS;
 public class MainActivityPrincipal extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    //public static AnimationDrawable animation;
-    //  public Animation animBounce;
     @SuppressLint("StaticFieldLeak")
     public static TextView textView_titulo,textViewTimeDecorrido, textView_artista,textViewTimeTotal;
     @SuppressLint("StaticFieldLeak")
@@ -68,9 +63,9 @@ public class MainActivityPrincipal extends AppCompatActivity
     private Intent it;
     public int n2,volume;
     public static boolean mudo;
-    //public CardView cadViewLogo,cadViewCorpo;
     public NotificationManager notificationManager;
     private RadioStatus radioStatus;
+    private final String LOG_TAG = MainActivityPrincipal.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,7 +74,7 @@ public class MainActivityPrincipal extends AppCompatActivity
 
         MultiDex.install(this);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
@@ -88,25 +83,20 @@ public class MainActivityPrincipal extends AppCompatActivity
 
         LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver, new IntentFilter(FECHAR_TODAS_ACTIVITYS));
 
-        //start();
-
-        //radioNotificacao = new RadioNotificacao();
-        //radioNotificacao2 = new RadioNotificacao2();
-
         it = new Intent(MainActivityPrincipal.this, PlayerService.class);
         notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         radioStatus = new RadioStatus(PlayerService.context, PlayerService.mediaSessionCompat);
 
-        imageLogo = (CircleImageView) findViewById(R.id.imageLogo);
-        btmPlay = (ImageView) findViewById(R.id.btmPlay);
-        textView_titulo = (TextView) findViewById(R.id.textView_titulo);
-        textView_artista = (TextView) findViewById(R.id.textView_artista);
-        content_main_activity_principal = (RelativeLayout) findViewById(R.id.content_main_activity_principal);
-        seekBar = (SeekBar) findViewById(R.id.seekBar1);
-        seekBar2 = (SeekBar) findViewById(R.id.seekBar2);
-        imageView_somAlto = (ImageView) findViewById(R.id.imageView_somAlto);
-        textViewTimeDecorrido =(TextView)findViewById(R.id.textViewTimeDecorrido);
-        textViewTimeTotal =(TextView)findViewById(R.id.textViewTimeTotal);
+        imageLogo = findViewById(R.id.imageLogo);
+        btmPlay = findViewById(R.id.btmPlay);
+        textView_titulo = findViewById(R.id.textView_titulo);
+        textView_artista = findViewById(R.id.textView_artista);
+        content_main_activity_principal = findViewById(R.id.content_main_activity_principal);
+        seekBar = findViewById(R.id.seekBar1);
+        seekBar2 = findViewById(R.id.seekBar2);
+        imageView_somAlto = findViewById(R.id.imageView_somAlto);
+        textViewTimeDecorrido = findViewById(R.id.textViewTimeDecorrido);
+        textViewTimeTotal = findViewById(R.id.textViewTimeTotal);
         n2 = seekBar.getProgress();
 
         pegarPosicaoVolumeIcone(n2);
@@ -121,26 +111,15 @@ public class MainActivityPrincipal extends AppCompatActivity
             seekBar2.setProgress(0);
         }
 
-        imageLogo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        imageLogo.setOnClickListener(view -> {
 
-                imageLogo.setClickable(false);
-
-                new FlipHorizontalAnimation(imageLogo).setDuration(700).setListener(new AnimationListener() {
-                    @Override
-                    public void onAnimationEnd(Animation animation) {
-                        imageLogo.setClickable(true);
-                    }
-
-                }).animate();
-
-            }
+            imageLogo.setClickable(false);
+            new FlipHorizontalAnimation(imageLogo).setDuration(700).setListener(animation -> imageLogo.setClickable(true)).animate();
         });
 
 
-        imageView_somAlto.setOnClickListener((View.OnClickListener) v -> {
-            final SeekBar seekBar = (SeekBar) findViewById(R.id.seekBar1);
+        imageView_somAlto.setOnClickListener( v -> {
+            final SeekBar seekBar =  findViewById(R.id.seekBar1);
             if (mudo) {
                 seekBar.setProgress(volume);
                 mudo = false;
@@ -154,18 +133,18 @@ public class MainActivityPrincipal extends AppCompatActivity
 
         btmPlay.setOnClickListener(v -> startService(it));
 
-        ImageView btmCompartilhar = (ImageView) findViewById(R.id.btmCompartilhar);
+        ImageView btmCompartilhar = findViewById(R.id.btmCompartilhar);
         btmCompartilhar.setOnClickListener(v -> compartilhar());
-        ImageView btmLigar = (ImageView) findViewById(R.id.btmLigar);
+        ImageView btmLigar = findViewById(R.id.btmLigar);
         btmLigar.setOnClickListener(v -> contato());
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer =  findViewById(R.id.drawer_layout);
         android.support.v7.app.ActionBarDrawerToggle toggle = new android.support.v7.app.ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
     }
@@ -185,7 +164,7 @@ public class MainActivityPrincipal extends AppCompatActivity
         }
     }
 
-    private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() { // fecha a activity quando pressiona o botão fechar da notificação
+    private final BroadcastReceiver broadcastReceiver = new BroadcastReceiver() { // fecha a activity quando pressiona o botão fechar da notificação
         @Override
         public void onReceive(Context context, Intent intent) {
             // Esse método será chamado ao lançar um broadcast
@@ -205,14 +184,14 @@ public class MainActivityPrincipal extends AppCompatActivity
 
     private void contato() {
 // Aqui, esta atividade é a atividade atual
-      if(PlayerService.conexao.estaConectado()){
+      if(PlayerService.conexao.isConnect()){
           if(!AsynDataClass.singleParsedWhat.isEmpty()){
               try{
                   String link = AsynDataClass.singleParsedWhat;
                   Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
                   startActivity(myIntent);
-              }catch(Exception erro){
-                  System.out.println(erro);
+              }catch(Exception e){
+                  Log.e(LOG_TAG, "Exception: " + e.getMessage());
               }
           }
 
@@ -226,13 +205,14 @@ public class MainActivityPrincipal extends AppCompatActivity
                           Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
                           startActivity(it);
                       } catch (Exception e) {
-                          e.getMessage();
+                          Log.e(LOG_TAG, "Exception: " + e.getMessage());
                       }
                   }).show();
       }
 
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
@@ -252,28 +232,24 @@ public class MainActivityPrincipal extends AppCompatActivity
                 break;
             }
             case R.id.nav_sobre: {
-                sobre();
-                //politicaDePrivacidade();
+                about();
                 break;
             }
             case R.id.nav_pedir_musica: {
-                if(PlayerService.conexao.estaConectado()){
+                if(PlayerService.conexao.isConnect()){
                     if(!AsynDataClass.urlPedidos.isEmpty()){
                         if(SingletonUpdateStatus.getInstance().aovivo){
                             AlertDialog.Builder mensagem = new AlertDialog.Builder(this);
                             mensagem.setTitle("Estamos ao Vivo!");
                             mensagem.setMessage("No momento só é possível pedir música através do nosso Whatsapp. \n\nDeseja pedir música via Whatsapp?");
                             mensagem.setNeutralButton("NÃO", null);
-                            mensagem.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
-                                    try{
-                                        String link = AsynDataClass.singleParsedWhat;
-                                        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
-                                        startActivity(myIntent);
-                                    }catch(Exception erro){
-                                        System.out.println(erro);
-                                    }
+                            mensagem.setPositiveButton("SIM", (dialogInterface, i) -> {
+                                try{
+                                    String link = AsynDataClass.singleParsedWhat;
+                                    Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+                                    startActivity(myIntent);
+                                }catch(Exception e){
+                                    Log.e(LOG_TAG, "Exception: " + e.getMessage());
                                 }
                             });
                             mensagem.create();
@@ -283,11 +259,10 @@ public class MainActivityPrincipal extends AppCompatActivity
                             Intent it = new Intent(MainActivityPrincipal.this, ActivityPedidos.class);
                             startActivity(it);
                             finish();
-                        }catch(Exception erro){
-                            System.out.println(erro);
+                        }catch(Exception e){
+                            Log.e(LOG_TAG, "Exception: " + e.getMessage());
                         }
                         }
-                    }else {
                     }
 
                 }else {
@@ -300,7 +275,7 @@ public class MainActivityPrincipal extends AppCompatActivity
                                     Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
                                     startActivity(it);
                                 } catch (Exception e) {
-                                    e.getMessage();
+                                    Log.e(LOG_TAG, "Exception: " + e.getMessage());
                                 }
                             }).show();
                 }
@@ -309,14 +284,14 @@ public class MainActivityPrincipal extends AppCompatActivity
             }
             case R.id.historico: {
 
-                if(PlayerService.conexao.estaConectado()){
+                if(PlayerService.conexao.isConnect()){
                     if(!AsynDataClass.urlHistorico.isEmpty()){
                         try{
                             Intent it = new Intent(MainActivityPrincipal.this, ActivityHistorico.class);
                             startActivity(it);
                             finish();
-                        }catch(Exception erro){
-                            System.out.println(erro);
+                        }catch(Exception e){
+                            Log.e(LOG_TAG, "Exception: " + e.getMessage());
                         }
                     }
 
@@ -325,15 +300,12 @@ public class MainActivityPrincipal extends AppCompatActivity
                     radioStatus.parado();
 
                     Snackbar.make(MainActivityPrincipal.content_main_activity_principal, R.string.semConecao, Snackbar.LENGTH_LONG)
-                            .setAction("CONECTAR", new View.OnClickListener() {
-                                @Override
-                                public void onClick(View view) {
-                                    try {
-                                        Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
-                                        startActivity(it);
-                                    } catch (Exception e) {
-                                        e.getMessage();
-                                    }
+                            .setAction("CONECTAR", view -> {
+                                try {
+                                    Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
+                                    startActivity(it);
+                                } catch (Exception e) {
+                                    Log.e(LOG_TAG, "Exception: " + e.getMessage());
                                 }
                             }).show();
                 }
@@ -345,7 +317,7 @@ public class MainActivityPrincipal extends AppCompatActivity
                 try{
                     notificationManager.cancel(RadioNotificacao.ID_INT_NOTIFICATION);
                 }catch (Exception e){
-                    e.getMessage();
+                    Log.e(LOG_TAG, "Exception: " + e.getMessage());
                 }
 
                 LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(FECHAR_TODAS_ACTIVITYS));
@@ -364,13 +336,13 @@ public class MainActivityPrincipal extends AppCompatActivity
             default:
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
 
-    private void sobre() {
+    private void about() {
 
         AlertDialog.Builder mensagem = new AlertDialog.Builder(MainActivityPrincipal.this);
         String versionName = BuildConfig.VERSION_NAME;
@@ -393,7 +365,7 @@ public class MainActivityPrincipal extends AppCompatActivity
         try {
             this.startActivity(intent);
 
-        } catch (ActivityNotFoundException ex) {
+        } catch (ActivityNotFoundException e) {
             // Chrome browser presumably not installed so allow user to choose instead
             intent.setPackage(null);
             this.startActivity(intent);
@@ -428,8 +400,8 @@ public class MainActivityPrincipal extends AppCompatActivity
     private void initControls() {
 
         try {
-            final SeekBar seekBar = (SeekBar) findViewById(R.id.seekBar1);
-            final ImageView imageView_somAlto = (ImageView) findViewById(R.id.imageView_somAlto);
+            final SeekBar seekBar = findViewById(R.id.seekBar1);
+            final ImageView imageView_somAlto = findViewById(R.id.imageView_somAlto);
             final AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
             seekBar.setMax(audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC));
@@ -470,7 +442,7 @@ public class MainActivityPrincipal extends AppCompatActivity
                 }
             });
         } catch (Exception e) {
-            e.getMessage();
+            Log.e(LOG_TAG, "Exception: " + e.getMessage());
         }
     }
     @Override
@@ -521,21 +493,13 @@ public class MainActivityPrincipal extends AppCompatActivity
                 AlertDialog.Builder mensagem = new AlertDialog.Builder(MainActivityPrincipal.this);
                 mensagem.setTitle("Alerta!");
                 mensagem.setMessage("O que deseja fazer?");
-                mensagem.setNeutralButton("SAIR", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
+                mensagem.setNeutralButton("SAIR", (dialogInterface, i) -> {
 
-                        LocalBroadcastManager.getInstance(MainActivityPrincipal.this).sendBroadcast(new Intent(FECHAR_TODAS_ACTIVITYS));
-                        stopService(it);
+                    LocalBroadcastManager.getInstance(MainActivityPrincipal.this).sendBroadcast(new Intent(FECHAR_TODAS_ACTIVITYS));
+                    stopService(it);
 
-                    }
                 });
-                mensagem.setPositiveButton("MINIMIZAR", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        LocalBroadcastManager.getInstance(MainActivityPrincipal.this).sendBroadcast(new Intent(FECHAR_TODAS_ACTIVITYS));
-                    }
-                });
+                mensagem.setPositiveButton("MINIMIZAR", (dialog, which) -> LocalBroadcastManager.getInstance(MainActivityPrincipal.this).sendBroadcast(new Intent(FECHAR_TODAS_ACTIVITYS)));
                 mensagem.show();
             } else {
 
@@ -543,7 +507,7 @@ public class MainActivityPrincipal extends AppCompatActivity
                 stopService(it);
             }
 
-            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            DrawerLayout drawer = findViewById(R.id.drawer_layout);
             if (drawer.isDrawerOpen(GravityCompat.START)) {
                 drawer.closeDrawer(GravityCompat.START);
             }
@@ -570,23 +534,20 @@ public class MainActivityPrincipal extends AppCompatActivity
             finish();
         }else if(id == R.id.pedir_musica){
 
-            if(PlayerService.conexao.estaConectado()){
+            if(PlayerService.conexao.isConnect()){
                 if(!AsynDataClass.urlPedidos.isEmpty()){
                     if(SingletonUpdateStatus.getInstance().aovivo){
                         AlertDialog.Builder mensagem = new AlertDialog.Builder(this);
                         mensagem.setTitle("Estamos ao Vivo!");
                         mensagem.setMessage("No momento só é possível pedir música através do nosso Whatsapp. \n\nDeseja pedir música via Whatsapp?");
                         mensagem.setNeutralButton("NÃO", null);
-                        mensagem.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int i) {
-                                try{
-                                    String link = AsynDataClass.singleParsedWhat;
-                                    Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
-                                    startActivity(myIntent);
-                                }catch(Exception erro){
-                                    System.out.println(erro);
-                                }
+                        mensagem.setPositiveButton("SIM", (dialogInterface, i) -> {
+                            try{
+                                String link = AsynDataClass.singleParsedWhat;
+                                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+                                startActivity(myIntent);
+                            }catch(Exception e){
+                                Log.e(LOG_TAG, "Exception: " + e.getMessage());
                             }
                         });
                         mensagem.create();
@@ -596,8 +557,8 @@ public class MainActivityPrincipal extends AppCompatActivity
                             Intent it = new Intent(MainActivityPrincipal.this, ActivityPedidos.class);
                             startActivity(it);
                             finish();
-                        }catch(Exception erro){
-                            System.out.println(erro);
+                        }catch(Exception e){
+                            Log.e(LOG_TAG, "Exception: " + e.getMessage());
                         }
                     }
                 }
@@ -612,7 +573,7 @@ public class MainActivityPrincipal extends AppCompatActivity
                                 Intent it = new Intent(Settings.ACTION_WIFI_SETTINGS);
                                 startActivity(it);
                             } catch (Exception e) {
-                                e.getMessage();
+                                Log.e(LOG_TAG, "Exception: " + e.getMessage());
                             }
                         }).show();
             }
@@ -656,26 +617,22 @@ public class MainActivityPrincipal extends AppCompatActivity
                     if (Status.isErroAoEncontrarServidor()) {
                         textView_titulo.setText(R.string.erro_ao_encontrar_servidor);
                         textView_artista.setText(R.string.ops);
-                        MainActivityPrincipal.imageLogo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
-                        btmPlay.setImageDrawable(getResources().getDrawable(R.mipmap.ic_play));
-                       // animation.stop();
+                        // animation.stop();
 
                     } else {
                         if (Status.isErroAoConectar()) {
                             textView_titulo.setText(R.string.erroConexaoNome);
                             textView_artista.setText(R.string.ops);
-                            MainActivityPrincipal.imageLogo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
-                            btmPlay.setImageDrawable(getResources().getDrawable(R.mipmap.ic_play));
-                           // animation.stop();
+                            // animation.stop();
 
                         } else {
                             textView_titulo.setText(R.string.paradoNome);
                             textView_artista.setText(R.string.stop);
-                            MainActivityPrincipal.imageLogo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
-                            btmPlay.setImageDrawable(getResources().getDrawable(R.mipmap.ic_play));
-                           // animation.stop();
+                            // animation.stop();
                         }
                     }
+                    MainActivityPrincipal.imageLogo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
+                    btmPlay.setImageDrawable(getResources().getDrawable(R.mipmap.ic_play));
 
                 }
             }

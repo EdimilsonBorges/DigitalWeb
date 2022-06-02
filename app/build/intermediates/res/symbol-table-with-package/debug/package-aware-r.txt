@@ -2014,6 +2014,7 @@ string action_settings
 string aguarde
 string app_name
 string appbar_scrolling_view_behavior
+string ativar
 string aumentar_ou_diminuir_volume
 string avaliar_app
 string bemVindoMensagem
@@ -2022,6 +2023,7 @@ string bottom_sheet_behavior
 string btnLigarParaEmissora
 string btnMudo
 string btnPlayOuPause
+string cancelar
 string character_counter_content_description
 string character_counter_pattern
 string cidadeNome
@@ -2047,6 +2049,7 @@ string compartilharNome
 string conectandoNome
 string conviteMensagem
 string default_web_client_id
+string desativar
 string erroConexaoMensagem
 string erroConexaoNome
 string erro_ao_encontrar_servidor
@@ -2100,6 +2103,7 @@ string mais_nome
 string mtrl_chip_close_icon_content_description
 string navigation_drawer_close
 string navigation_drawer_open
+string noAr
 string ops
 string paradoNome
 string password_toggle_content_description

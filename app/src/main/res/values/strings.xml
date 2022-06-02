@@ -37,4 +37,8 @@
     <string name="aguarde">Aguarde...</string>
     <string name="ops">Ops.</string>
     <string name="stop">Stop</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="ativar">ATIVAR</string>
+    <string name="desativar">DESATIVAR</string>
+    <string name="noAr">No Ar</string>
 </resources>

@@ -1,5 +1,6 @@
 package br.radio.DigitalWeb.Activitys;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -26,8 +27,10 @@ import static br.radio.DigitalWeb.Services.PlayerService.FECHAR_TODAS_ACTIVITYS;
  */
 public class ActivityCustonDialogTemporizador extends AppCompatActivity {
 
+    @SuppressLint("StaticFieldLeak")
     public static TextView tempoRestante;
     private Intent it2;
+    @SuppressLint("StaticFieldLeak")
     public static Button menosCinco, maisCinco, ativarDesativar;
 
     @Override
@@ -40,55 +43,46 @@ public class ActivityCustonDialogTemporizador extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setTitle("Temporizador");     //Titulo para ser exibido na sua Action Bar em frente à seta
 
         it2 = new Intent(ActivityCustonDialogTemporizador.this, SleepTimerService.class);
-        tempoRestante = (TextView) findViewById(R.id.tempo_restante);
-        menosCinco =(Button)findViewById(R.id.menos_cinco_mn);
-        maisCinco =(Button)findViewById(R.id.mais_cinco_mn);
-        ativarDesativar =(Button)findViewById(R.id.ligar_temporizador);
+        tempoRestante = findViewById(R.id.tempo_restante);
+        menosCinco = findViewById(R.id.menos_cinco_mn);
+        maisCinco = findViewById(R.id.mais_cinco_mn);
+        ativarDesativar = findViewById(R.id.ligar_temporizador);
 
         SleepTimerService.atualizarCountDownTimerTexto();
 
         LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver, new IntentFilter(FECHAR_TODAS_ACTIVITYS));
 
         if(SleepTimerService.passandoTempo){
-            ativarDesativar.setText("CANCELAR");
+            ativarDesativar.setText(R.string.cancelar);
             maisCinco.setVisibility(View.INVISIBLE);
             menosCinco.setVisibility(View.INVISIBLE);
         }else {
-            ativarDesativar.setText("ATIVAR");
+            ativarDesativar.setText(R.string.ativar);
             maisCinco.setVisibility(View.VISIBLE);
             menosCinco.setVisibility(View.VISIBLE);
         }
 
-        menosCinco.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        menosCinco.setOnClickListener(view -> {
 
-                if(SleepTimerService.tempoLeftInMilissegundos >= 300000 && !SleepTimerService.passandoTempo){
-                    SleepTimerService.tempoLeftInMilissegundos = SleepTimerService.tempoLeftInMilissegundos - 300000;
-                    SleepTimerService.atualizarCountDownTimerTexto();
-                }
+            if(SleepTimerService.tempoLeftInMilissegundos >= 300000 && !SleepTimerService.passandoTempo){
+                SleepTimerService.tempoLeftInMilissegundos = SleepTimerService.tempoLeftInMilissegundos - 300000;
+                SleepTimerService.atualizarCountDownTimerTexto();
             }
         });
-        maisCinco.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(!SleepTimerService.passandoTempo && SleepTimerService.tempoLeftInMilissegundos <= 82800000){
-                    SleepTimerService.tempoLeftInMilissegundos = SleepTimerService.tempoLeftInMilissegundos + 300000;
-                    SleepTimerService.atualizarCountDownTimerTexto();
-                    menosCinco.setVisibility(View.VISIBLE);
-                }
+        maisCinco.setOnClickListener(view -> {
+            if(!SleepTimerService.passandoTempo && SleepTimerService.tempoLeftInMilissegundos <= 82800000){
+                SleepTimerService.tempoLeftInMilissegundos = SleepTimerService.tempoLeftInMilissegundos + 300000;
+                SleepTimerService.atualizarCountDownTimerTexto();
+                menosCinco.setVisibility(View.VISIBLE);
             }
         });
 
-        ativarDesativar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        ativarDesativar.setOnClickListener(view -> {
 
-                if(SleepTimerService.tempoLeftInMilissegundos >= 1000){
+            if(SleepTimerService.tempoLeftInMilissegundos >= 1000){
 
-                    startService(it2);
+                startService(it2);
 
-                }
             }
         });
 

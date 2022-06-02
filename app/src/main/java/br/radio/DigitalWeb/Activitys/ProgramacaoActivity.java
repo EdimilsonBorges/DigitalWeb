@@ -1,6 +1,7 @@
 package br.radio.DigitalWeb.Activitys;
 
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -30,10 +31,14 @@ import static br.radio.DigitalWeb.Services.PlayerService.FECHAR_TODAS_ACTIVITYS;
 public class ProgramacaoActivity extends AppCompatActivity {
 
     public LinearLayoutManager segSexLinearLayoutManager, segLinearLayoutManager, terLinearLayoutManager, quaLinearLayoutManager, quiLinearLayoutManager, sexLinearLayoutManager, sabLinearLayoutManager, domLinearLayoutManager;
+    @SuppressLint("StaticFieldLeak")
     public static RecyclerView segSexlistViewProgramacao, seglistViewProgramacao, terlistViewProgramacao, qualistViewProgramacao, quilistViewProgramacao, sexlistViewProgramacao, sablistViewProgramacao, domlistViewProgramacao;
+    @SuppressLint("StaticFieldLeak")
     public static TextView segSextextView, segtextView,tertextView,quatextView,quitextView,sextextView,sabtextView,domtextView;
+    @SuppressLint("StaticFieldLeak")
     public static SwipeRefreshLayout mSwipeToRefresh;
     public GetDados getDados;
+    @SuppressLint("StaticFieldLeak")
     public static ProgressBar progress_programacao;
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -136,12 +141,9 @@ public class ProgramacaoActivity extends AppCompatActivity {
                 R.color.md_pink_500_75
         );
 
-        mSwipeToRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                ProgramacaoActivity.progress_programacao.setVisibility(View.GONE);
-                getDados = new GetDados(ProgramacaoActivity.this, PlayerService.mediaSessionCompat);
-            }
+        mSwipeToRefresh.setOnRefreshListener(() -> {
+            ProgramacaoActivity.progress_programacao.setVisibility(View.GONE);
+            getDados = new GetDados(ProgramacaoActivity.this, PlayerService.mediaSessionCompat);
         });
     }
 
