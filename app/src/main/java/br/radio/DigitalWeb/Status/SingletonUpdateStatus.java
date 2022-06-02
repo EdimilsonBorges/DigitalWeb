@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.graphics.BitmapFactory;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -27,6 +28,7 @@ public class SingletonUpdateStatus {
     public int duracao = (551*(60*1000))*60;
     public boolean  aovivo;
     private static SingletonUpdateStatus instance;
+    private static final String LOG_TAG = SingletonUpdateStatus.class.getSimpleName();
 
     private SingletonUpdateStatus(){
 
@@ -89,11 +91,10 @@ public class SingletonUpdateStatus {
                             String formatoDoTempoDecorrido = String.format(Locale.getDefault(),"%02d:%02d:%02d",horas, minutos, segundos);
                             String formatoDoTempoTotal = String.format(Locale.getDefault(),"%02d:%02d:%02d",horas2, minutos2, segundos2);
 
+                            MainActivityPrincipal.textViewTimeDecorrido.setText(formatoDoTempoDecorrido);
                             if(horas2 != 23){
-                                MainActivityPrincipal.textViewTimeDecorrido.setText(formatoDoTempoDecorrido);
                                 MainActivityPrincipal.textViewTimeTotal.setText(formatoDoTempoTotal);
                             }else {
-                                MainActivityPrincipal.textViewTimeDecorrido.setText(formatoDoTempoDecorrido);
                                 MainActivityPrincipal.textViewTimeTotal.setText("-- : -- : --");
                             }
                         }else {
@@ -163,7 +164,7 @@ public class SingletonUpdateStatus {
             processo.execute();
 
         }catch (Exception e){
-            e.getMessage();
+            Log.e(LOG_TAG, "Exception: " + e.getMessage());
         }
     }
 
@@ -182,7 +183,7 @@ public class SingletonUpdateStatus {
                 handlerMediaPlayer.post(() -> {
 
                     MainActivityPrincipal.textView_titulo.setText(R.string.tocandoNome);
-                    MainActivityPrincipal.textView_artista.setText("No Ar");
+                    MainActivityPrincipal.textView_artista.setText(R.string.noAr);
                     MainActivityPrincipal.imageLogo.setImageDrawable(PlayerService.context.getResources().getDrawable(R.drawable.logo));
                     btmPlay.setImageDrawable(PlayerService.context.getResources().getDrawable(R.mipmap.ic_pause));
                     // MainActivityPrincipal.animation.start();

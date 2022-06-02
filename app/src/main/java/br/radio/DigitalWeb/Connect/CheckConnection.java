@@ -16,10 +16,10 @@ public class CheckConnection {
     public CheckConnection(Context context){
         this.context = context;
 
-        estaConectado();
+        isConnect();
     }
 
-     public boolean estaConectado(){
+     public boolean isConnect(){
         ConnectivityManager connectivityManager = (ConnectivityManager)context.getSystemService(Service.CONNECTIVITY_SERVICE);
         if(connectivityManager != null){
             NetworkInfo info = connectivityManager.getActiveNetworkInfo();

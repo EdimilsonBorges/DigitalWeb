@@ -112,10 +112,8 @@ public class GetDados {
                             AsynDataClass.dataurl = GetDados.urlMetadata.get(2);
 
                         } catch (Exception e) {
-                            e.getMessage();
-
                             AsynDataClass.dataurl = null;
-                           radioStatus.erroAoEncontrarServidor();
+                            radioStatus.erroAoEncontrarServidor();
 
                         }
 

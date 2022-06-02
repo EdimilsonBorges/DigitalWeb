@@ -67,7 +67,7 @@ public class RadioStatus {
         if(btmPlay != null){
             handlerMediaPlayer.post(() -> {
                 MainActivityPrincipal.textView_titulo.setText(R.string.conectandoNome);
-                MainActivityPrincipal.textView_artista.setText("Aguarde...");
+                MainActivityPrincipal.textView_artista.setText(R.string.aguarde);
                 MainActivityPrincipal.imageLogo.setImageDrawable(context.getResources().getDrawable(R.drawable.logo));
                 btmPlay.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_pause));
                 // MainActivityPrincipal.animation.stop();
@@ -90,7 +90,7 @@ public class RadioStatus {
         if(btmPlay != null){
             handlerMediaPlayer.post(() -> {
                 MainActivityPrincipal.textView_titulo.setText(R.string.paradoNome);
-                MainActivityPrincipal.textView_artista.setText("Stop");
+                MainActivityPrincipal.textView_artista.setText(R.string.stop);
                 MainActivityPrincipal.imageLogo.setImageDrawable(context.getResources().getDrawable(R.drawable.logo));
                 btmPlay.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_play));
                 //MainActivityPrincipal.animation.stop();
@@ -121,7 +121,7 @@ public class RadioStatus {
         if(btmPlay != null){
             handlerMediaPlayer.post(() -> {
                 MainActivityPrincipal.textView_titulo.setText(context.getString(R.string.erroConexaoNome));
-                MainActivityPrincipal.textView_artista.setText("Ops");
+                MainActivityPrincipal.textView_artista.setText(R.string.ops);
                 MainActivityPrincipal.imageLogo.setImageDrawable(context.getResources().getDrawable(R.drawable.logo));
                 btmPlay.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_play));
                 // MainActivityPrincipal.animation.stop();
@@ -144,7 +144,7 @@ public class RadioStatus {
         if(btmPlay != null){
             handlerMediaPlayer.post(() -> {
                 MainActivityPrincipal.textView_titulo.setText(R.string.procurando_Servidor);
-                MainActivityPrincipal.textView_artista.setText("Aguarde...");
+                MainActivityPrincipal.textView_artista.setText(R.string.aguarde);
                 MainActivityPrincipal.imageLogo.setImageDrawable(context.getResources().getDrawable(R.drawable.logo));
                 btmPlay.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_pause));
                 //MainActivityPrincipal.animation.stop();
@@ -171,7 +171,7 @@ public class RadioStatus {
             handlerMediaPlayer.post(() -> {
 
                 MainActivityPrincipal.textView_titulo.setText(context.getString(R.string.erro_ao_encontrar_servidor));
-                MainActivityPrincipal.textView_artista.setText("Ops.");
+                MainActivityPrincipal.textView_artista.setText(R.string.ops);
                 MainActivityPrincipal.imageLogo.setImageDrawable(context.getResources().getDrawable(R.drawable.logo));
                 MainActivityPrincipal.btmPlay.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_play));
                 //MainActivityPrincipal.animation.stop();

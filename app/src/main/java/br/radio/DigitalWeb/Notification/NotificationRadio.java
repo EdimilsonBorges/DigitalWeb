@@ -27,8 +27,6 @@ import br.radio.DigitalWeb.Status.Status;
  */
 public final class NotificationRadio {
 
-    /* Define log tag */
-    private static final String LOG_TAG = NotificationRadio.class.getSimpleName();
     private static final String ID_STRING_NOTIFICATION = "15";
     private static final int ID_INT_NOTIFICATION = 15;
 

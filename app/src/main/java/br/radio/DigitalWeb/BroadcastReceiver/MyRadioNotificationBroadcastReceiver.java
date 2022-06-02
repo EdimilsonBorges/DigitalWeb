@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v4.content.LocalBroadcastManager;
+import android.util.Log;
 
 import br.radio.DigitalWeb.Notification.RadioNotificacao;
 import br.radio.DigitalWeb.R;
@@ -25,6 +26,7 @@ public class MyRadioNotificationBroadcastReceiver extends BroadcastReceiver {
     public Context context;
     public static final String NOTIFY_PLAYPAUSE = "NOTIFY_PLAYPAUSE2";
     public static final String NOTIFY_FECHAR = "NOTIFY_FECHAR2";
+    private final String LOG_TAG = MyRadioNotificationBroadcastReceiver.class.getSimpleName();
 
     @Override
     public void onReceive(final Context context, Intent intent) {
@@ -45,7 +47,7 @@ public class MyRadioNotificationBroadcastReceiver extends BroadcastReceiver {
             try{
                 notificationManager.cancel(RadioNotificacao.ID_INT_NOTIFICATION);
             }catch (Exception e){
-                e.getMessage();
+                Log.e(LOG_TAG, "Exception: " + e.getMessage());
             }
             LocalBroadcastManager.getInstance(context).sendBroadcast(new Intent(FECHAR_TODAS_ACTIVITYS));
             context.stopService(it);

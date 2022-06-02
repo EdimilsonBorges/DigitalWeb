@@ -238,39 +238,39 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int exo_controls_fastforward_description = 0x7f0f0051;
-        public static final int exo_controls_fullscreen_description = 0x7f0f0052;
-        public static final int exo_controls_next_description = 0x7f0f0053;
-        public static final int exo_controls_pause_description = 0x7f0f0054;
-        public static final int exo_controls_play_description = 0x7f0f0055;
-        public static final int exo_controls_previous_description = 0x7f0f0056;
-        public static final int exo_controls_repeat_all_description = 0x7f0f0057;
-        public static final int exo_controls_repeat_off_description = 0x7f0f0058;
-        public static final int exo_controls_repeat_one_description = 0x7f0f0059;
-        public static final int exo_controls_rewind_description = 0x7f0f005a;
-        public static final int exo_controls_shuffle_description = 0x7f0f005b;
-        public static final int exo_controls_stop_description = 0x7f0f005c;
-        public static final int exo_download_completed = 0x7f0f005d;
-        public static final int exo_download_description = 0x7f0f005e;
-        public static final int exo_download_downloading = 0x7f0f005f;
-        public static final int exo_download_failed = 0x7f0f0060;
-        public static final int exo_download_notification_channel_name = 0x7f0f0061;
-        public static final int exo_download_removing = 0x7f0f0062;
-        public static final int exo_item_list = 0x7f0f0063;
-        public static final int exo_track_bitrate = 0x7f0f0064;
-        public static final int exo_track_mono = 0x7f0f0065;
-        public static final int exo_track_resolution = 0x7f0f0066;
-        public static final int exo_track_selection_auto = 0x7f0f0067;
-        public static final int exo_track_selection_none = 0x7f0f0068;
-        public static final int exo_track_selection_title_audio = 0x7f0f0069;
-        public static final int exo_track_selection_title_text = 0x7f0f006a;
-        public static final int exo_track_selection_title_video = 0x7f0f006b;
-        public static final int exo_track_stereo = 0x7f0f006c;
-        public static final int exo_track_surround = 0x7f0f006d;
-        public static final int exo_track_surround_5_point_1 = 0x7f0f006e;
-        public static final int exo_track_surround_7_point_1 = 0x7f0f006f;
-        public static final int exo_track_unknown = 0x7f0f0070;
-        public static final int status_bar_notification_info_overflow = 0x7f0f0091;
+        public static final int exo_controls_fastforward_description = 0x7f0f0054;
+        public static final int exo_controls_fullscreen_description = 0x7f0f0055;
+        public static final int exo_controls_next_description = 0x7f0f0056;
+        public static final int exo_controls_pause_description = 0x7f0f0057;
+        public static final int exo_controls_play_description = 0x7f0f0058;
+        public static final int exo_controls_previous_description = 0x7f0f0059;
+        public static final int exo_controls_repeat_all_description = 0x7f0f005a;
+        public static final int exo_controls_repeat_off_description = 0x7f0f005b;
+        public static final int exo_controls_repeat_one_description = 0x7f0f005c;
+        public static final int exo_controls_rewind_description = 0x7f0f005d;
+        public static final int exo_controls_shuffle_description = 0x7f0f005e;
+        public static final int exo_controls_stop_description = 0x7f0f005f;
+        public static final int exo_download_completed = 0x7f0f0060;
+        public static final int exo_download_description = 0x7f0f0061;
+        public static final int exo_download_downloading = 0x7f0f0062;
+        public static final int exo_download_failed = 0x7f0f0063;
+        public static final int exo_download_notification_channel_name = 0x7f0f0064;
+        public static final int exo_download_removing = 0x7f0f0065;
+        public static final int exo_item_list = 0x7f0f0066;
+        public static final int exo_track_bitrate = 0x7f0f0067;
+        public static final int exo_track_mono = 0x7f0f0068;
+        public static final int exo_track_resolution = 0x7f0f0069;
+        public static final int exo_track_selection_auto = 0x7f0f006a;
+        public static final int exo_track_selection_none = 0x7f0f006b;
+        public static final int exo_track_selection_title_audio = 0x7f0f006c;
+        public static final int exo_track_selection_title_text = 0x7f0f006d;
+        public static final int exo_track_selection_title_video = 0x7f0f006e;
+        public static final int exo_track_stereo = 0x7f0f006f;
+        public static final int exo_track_surround = 0x7f0f0070;
+        public static final int exo_track_surround_5_point_1 = 0x7f0f0071;
+        public static final int exo_track_surround_7_point_1 = 0x7f0f0072;
+        public static final int exo_track_unknown = 0x7f0f0073;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0095;
     }
     public static final class style {
         private style() {}

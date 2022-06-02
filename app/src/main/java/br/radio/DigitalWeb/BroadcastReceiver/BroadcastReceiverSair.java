@@ -5,7 +5,11 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.LocalBroadcastManager;
+import android.util.Log;
 
+import java.io.IOException;
+
+import br.radio.DigitalWeb.AsynData.AsynDataClassStatusMetaDados;
 import br.radio.DigitalWeb.Services.PlayerService;
 import br.radio.DigitalWeb.Notification.RadioNotificacao;
 
@@ -20,6 +24,7 @@ public class BroadcastReceiverSair extends BroadcastReceiver {
     Intent it;
     public Context context;
     public static final String NOTIFY_FECHAR = "NOTIFY_FECHAR";
+    private final String LOG_TAG = BroadcastReceiverSair.class.getSimpleName();
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -35,7 +40,7 @@ public class BroadcastReceiverSair extends BroadcastReceiver {
             try{
                 notificationManager.cancel(RadioNotificacao.ID_INT_NOTIFICATION);
             }catch (Exception e){
-                e.getMessage();
+                Log.e(LOG_TAG, "Exception: " + e.getMessage());
             }
 
             context.stopService(it);
