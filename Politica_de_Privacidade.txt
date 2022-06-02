@@ -1,0 +1,76 @@
+POLÍTICA DE PRIVACIDADE (RÁDIO DIGITAL WEB)
+
+Esta Política de Privacidade descreve o uso das informações coletadas por este Aplicativo. Nós respeitamos a privacidade online dos usuários deste Aplicativo.
+
+Ao usar os recursos e a funcionalidade do Aplicativo, você concorda com o uso de suas informações coletadas por nós de acordo com as disposições aqui contidas.
+Exceto conforme estabelecido aqui ou conforme exigido por lei, não usaremos suas informações para nenhum outro propósito.
+
+Reservamo-nos o direito, a nosso critério, de avaliar e, se necessário, alterar esta Política a qualquer momento.
+Quaisquer alterações substanciais ou modificações a esta Política devem ser notificadas aos usuários para que você tome as medidas apropriadas.
+Recomendamos que você visite esta página frequentemente para permanecer atualizado em nossa mais recente Política de Privacidade.
+Seu uso continuado dos Aplicativos indica seu consentimento implícito à Política de Privacidade alterada.
+
+
+1. Informações Pessoais
+ 
+
+Quando coletados? Coletamos determinadas informações pessoais sobre você em momentos diferentes durante o uso do aplicativo. Coletamos informações pessoais (i) quando você baixa o Aplicativo (ii) quando solicitamos certas informações em momentos diferentes; (iii) quando você se comunica conosco; ou (iv) quando você usa o Aplicativo.
+O que foi coletado? As informações pessoais coletadas podem incluir, sem limitação, seu nome completo, idade, número de telefone, número de celular, data de nascimento, idioma, número de dispositivos nos quais o Aplicativo está instalado, ID do dispositivo para dispositivos, ID de registro para dispositivos Android, etc.
+Além disso, o aplicativo também acessa as seguintes informações do seu dispositivo:
+
+(i) Lista telefônica / lista de contatos;
+(ii) Imagens, vídeo, áudio e quaisquer outros arquivos armazenados no armazenamento USB;
+(iii) conexões Wi-Fi;
+(iv) recebimento de dados da Internet; etc.
+
+Por que coletar? Coletamos suas informações pessoais para fornecer uma experiência segura, eficiente e personalizada com o aplicativo. Essencialmente, suas informações coletadas são usadas: (i) para processar suas solicitações, (ii) entrar em contato com você quando necessário, (iii) para informá-lo sobre outros serviços e produtos, (iv) para fins de pesquisa interna e fornecer serviços personalizados aos usuários do Aplicativo ; e (v) para outros fins, incluindo resolução de problemas, resolução de disputas, realização de tarefas administrativas. Além disso, não enviamos e-mails ou spam não solicitados a ninguém. Nós não vendemos, alugamos ou exploramos comercialmente suas informações pessoais, coletadas durante suas interações com o aplicativo.
+Com quem compartilhado? Para obter eficiência no funcionamento do Aplicativo, compartilhamos suas informações pessoais, sob o ônus apropriado da confidencialidade, com:
+
+(i) os prestadores de serviços responsáveis pelo funcionamento eficiente do Aplicativo;
+(ii) os profissionais responsáveis por reparos, manutenção, auditoria relacionados ao Aplicativo.
+
+ 
+
+2. Informações não pessoais
+ 
+
+O Aplicativo também coleta determinadas informações não pessoais, como o Endereço IP (Internet Protocol), o Endereço IP do seu ISP (Internet Service Provider), a marca e o modelo do seu dispositivo móvel, sua operadora sem fio, dados sobre como você usa o Aplicativo, um aplicativo exclusivo. O ID é gerado para associar ao seu dispositivo móvel as informações de localização conforme relatadas pelo seu dispositivo móvel, a fim de fornecer os recursos do aplicativo que você solicitou.
+Somente essas informações são coletadas e que consideramos necessárias para alcançar os objetivos aqui estabelecidos.
+Por que coletado? : Suas informações não pessoais coletadas são usadas para (i) aprimorar sua experiência do usuário no Aplicativo; (ii) diagnosticar e corrigir qualquer problema técnico em nossos servidores e banco de dados; (iii) analisar tendências e dados demográficos para fins de pesquisa interna; (iv) compilar e analisar dados estatísticos sobre o uso do Aplicativo, incluindo informações sobre dispositivos e operadoras de celular, padrões de uso do Aplicativo. Não usamos suas informações não pessoais, coletadas de uma maneira que comprometa a privacidade online.
+Com quem compartilhado? : informações não pessoais não serão compartilhadas com pessoas de terceiros.
+
+ 
+3. Segurança e proteção de dados
+
+
+Implementamos as medidas técnicas e administrativas necessárias para garantir a transmissão de qualquer tipo de dados para o Aplicativo. No entanto, não podemos garantir um mecanismo infalível que manterá suas informações seguras para sempre contra acesso não autorizado.
+
+
+4. Exceções
+
+
+As disposições desta política não serão aplicáveis nas seguintes circunstâncias:
+
+a) Divulgação de informações às agências governamentais em resposta a processos legais;
+b) Qualquer acesso ilegal e transmissões de informações pessoais de nossos servidores;
+c) Divulgação de informações a auditores internos / externos encarregados da tarefa de investigar qualquer suspeita de fraude relacionada ao Aplicativo.
+
+
+5. Conteúdos transmitidos
+
+
+Todo o conteúdo transmitido no aplicativo é de total responsabilidade da emissora de rádio.
+
+
+6. Contate-nos
+
+
+Se você ainda tiver algum problema de privacidade em relação ao uso deste aplicativo, não hesite em contatar-nos em:
+
+Controlador de Dados
+
+Edimilson Borges
+
+E-mail de contato: edimilson-borges159@hotmail.com
+
+Atualizado dia 05/11/2019
