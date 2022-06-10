@@ -186,23 +186,23 @@ public final class R {
         public static final int italic = 0x7f090089;
         public static final int line1 = 0x7f090091;
         public static final int line3 = 0x7f090092;
-        public static final int media_actions = 0x7f090098;
-        public static final int none = 0x7f0900a9;
-        public static final int normal = 0x7f0900aa;
-        public static final int notification_background = 0x7f0900ab;
-        public static final int notification_main_column = 0x7f0900ac;
-        public static final int notification_main_column_container = 0x7f0900ad;
-        public static final int right_icon = 0x7f0900c5;
-        public static final int right_side = 0x7f0900c6;
-        public static final int status_bar_latest_event_content = 0x7f0900f8;
-        public static final int surface_view = 0x7f0900fc;
-        public static final int tag_transition_group = 0x7f0900ff;
-        public static final int text = 0x7f090107;
-        public static final int text2 = 0x7f090108;
-        public static final int texture_view = 0x7f09011b;
-        public static final int time = 0x7f09011c;
-        public static final int title = 0x7f09011d;
-        public static final int zoom = 0x7f090136;
+        public static final int media_actions = 0x7f09009c;
+        public static final int none = 0x7f0900ad;
+        public static final int normal = 0x7f0900ae;
+        public static final int notification_background = 0x7f0900af;
+        public static final int notification_main_column = 0x7f0900b0;
+        public static final int notification_main_column_container = 0x7f0900b1;
+        public static final int right_icon = 0x7f0900c9;
+        public static final int right_side = 0x7f0900ca;
+        public static final int status_bar_latest_event_content = 0x7f0900fc;
+        public static final int surface_view = 0x7f090100;
+        public static final int tag_transition_group = 0x7f090103;
+        public static final int text = 0x7f09010b;
+        public static final int text2 = 0x7f09010c;
+        public static final int texture_view = 0x7f09011f;
+        public static final int time = 0x7f090120;
+        public static final int title = 0x7f090121;
+        public static final int zoom = 0x7f09013a;
     }
     public static final class integer {
         private integer() {}

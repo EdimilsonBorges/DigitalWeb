@@ -1689,6 +1689,10 @@ id ligar_temporizador
 id light
 id line1
 id line3
+id linearLayout
+id linearLayout2
+id linearLayout3
+id linearLayout4
 id linear_item
 id listMode
 id list_item

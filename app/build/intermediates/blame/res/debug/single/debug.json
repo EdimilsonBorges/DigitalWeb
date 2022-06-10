@@ -4,6 +4,10 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
     {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_custon_dialog_temporizador.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\custon_dialog_temporizador.xml"
+    },
+    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_mtrl_linear.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\interpolator\\mtrl_linear.xml"
     },
@@ -24,12 +28,12 @@
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-small\\custon_notificacao.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_mudo.png.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_mudo.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_mudo.png.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_mudo.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -64,12 +68,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_nav_header_main_activity_principal.xml.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-large\\nav_header_main_activity_principal.xml"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_nav_header_main_activity_principal.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-large\\nav_header_main_activity_principal.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_exo_controls_fullscreen_enter.xml.flat",
@@ -136,16 +140,16 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-anydpi-v21\\exo_controls_repeat_off.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_background_color.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\color\\mtrl_chip_background_color.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_exo_icon_fastforward.xml.flat",
@@ -208,12 +212,12 @@
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
@@ -292,12 +296,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xhdpi_custon_notificacao.xml.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xhdpi\\custon_notificacao.xml"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xhdpi_custon_notificacao.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xhdpi\\custon_notificacao.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_custom_seekbar_thumb.xml.flat",
@@ -336,24 +340,24 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_somalto.png.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_somalto.png"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_historico.png.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-hdpi\\ic_historico.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
-    },
-    {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_somalto.png.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_somalto.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_exo_icon_pause.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-xhdpi-v4\\exo_icon_pause.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxhdpi_activity_programacao.xml.flat",
@@ -428,24 +432,24 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-anydpi-v21\\exo_edit_mode_logo.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_sair.png.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_sair.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\animator\\design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
@@ -468,12 +472,12 @@
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_custom_seekbar_progress.xml.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxhdpi\\custom_seekbar_progress.xml"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_side_nav_bar.xml.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-hdpi\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_custom_seekbar_progress.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxhdpi\\custom_seekbar_progress.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_out.xml.flat",
@@ -520,12 +524,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxhdpi_custon_dialog_temporizador.xml.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxhdpi\\custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_item_recycleview.xml.flat",
@@ -540,16 +544,16 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_seekbar_progress.xml.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable\\custom_seekbar_progress.xml"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_exo_icon_pause.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-mdpi-v4\\exo_icon_pause.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_seekbar_progress.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable\\custom_seekbar_progress.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
@@ -572,8 +576,16 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_historico_activity.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\historico_activity.xml"
+    },
+    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_activity_main_principal.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\activity_main_principal.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
@@ -660,12 +672,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_sair.png.flat",
@@ -720,52 +732,52 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_exo_simple_player_view.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\layout\\exo_simple_player_view.xml"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_exo_simple_player_view.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\layout\\exo_simple_player_view.xml"
+    },
+    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_exo_controls_repeat_one.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-anydpi-v21\\exo_controls_repeat_one.xml"
-    },
-    {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_sommetade.png.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-mdpi\\ic_sommetade.png"
-    },
-    {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldpi_content_main_activity_principal.xml.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-ldpi\\content_main_activity_principal.xml"
-    },
-    {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldpi_content_main_activity_principal.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-ldpi\\content_main_activity_principal.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_sommetade.png.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-mdpi\\ic_sommetade.png"
+    },
+    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_exo_icon_pause.xml.flat",
@@ -848,16 +860,20 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icone_notification.png.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxhdpi\\icone_notification.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icone_notification.png.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxhdpi\\icone_notification.png"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_activity_programacao.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\activity_programacao.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_custon_notificacao.xml.flat",
@@ -876,12 +892,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-anydpi-v21\\exo_icon_previous.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_historico.png.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxhdpi\\ic_historico.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_historico.png.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxhdpi\\ic_historico.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pedir_musica.png.flat",
@@ -952,12 +968,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_programacao.png.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_programacao.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -976,12 +992,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-anydpi-v21\\exo_icon_play.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icone.png.flat",
@@ -996,20 +1012,20 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_exo_icon_stop.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-xxhdpi-v4\\exo_icon_stop.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_exo_icon_stop.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-xxhdpi-v4\\exo_icon_stop.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_imagem_item.png.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-hdpi\\ic_imagem_item.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1048,12 +1064,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_custom_seekbar_style.xml.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-mdpi\\custom_seekbar_style.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1080,12 +1096,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-xhdpi-v4\\exo_controls_repeat_one.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_exo_icon_fastforward.png.flat",
@@ -1316,12 +1332,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-hdpi-v4\\exo_controls_shuffle.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icone.png.flat",
-        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxxhdpi\\icone.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icone.png.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-xxxhdpi\\icone.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -1604,12 +1620,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-ldpi-v4\\exo_icon_previous.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_exo_icon_play.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-xhdpi-v4\\exo_icon_play.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_exo_icon_play.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-xhdpi-v4\\exo_icon_play.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1686,6 +1702,10 @@
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_item_recycleview.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\item_recycleview.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_sair.png.flat",
@@ -2244,12 +2264,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cd1395d69461479570d97f029a1e82eb\\support-compat-28.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_programacao.png.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_programacao.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cd1395d69461479570d97f029a1e82eb\\support-compat-28.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -2358,6 +2378,10 @@
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_custon_notificacao.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\custon_notificacao.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_exo_icon_previous.png.flat",
@@ -2484,6 +2508,10 @@
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_content_main_activity_principal.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\content_main_activity_principal.xml"
+    },
+    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cd1395d69461479570d97f029a1e82eb\\support-compat-28.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
@@ -2508,12 +2536,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\caa0d89a3f9644e174be06ae47c293e9\\play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
@@ -2560,6 +2588,10 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_nav_header_main_activity_principal.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\nav_header_main_activity_principal.xml"
+    },
+    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_custom_seekbar_thumb.xml.flat",
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\drawable-mdpi\\custom_seekbar_thumb.xml"
     },
@@ -2596,12 +2628,12 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-mdpi-v4\\exo_icon_next.png"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\47c5731289ca8f31c16f6747f4fb79ac\\support-media-compat-28.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_custom_seekbar_border_shadow.xml.flat",
@@ -2916,6 +2948,10 @@
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_pedidos_activity.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\pedidos_activity.xml"
+    },
+    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -3156,12 +3192,12 @@
         "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxhdpi\\content_main_activity_principal.xml"
     },
     {
-        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_exo_controls_repeat_all.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\dcf9a919cec009f0c35d9a752ba4aca2\\exoplayer-ui-2.8.0\\res\\drawable-anydpi-v21\\exo_controls_repeat_all.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\3d0335a274b0854614acfdeae9c04374\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -3490,6 +3526,10 @@
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_icon.xml.flat",
         "source": "C:\\Users\\EDIMILSON BORGES\\.gradle\\caches\\transforms-2\\files-2.1\\cea9079f0bf8c388823635c3912fd1d9\\design-28.0.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxxhdpi_app_bar_main_activity_principal.xml.flat",
+        "source": "C:\\aplicativosandoid\\DigitalWeb\\app\\src\\main\\res\\layout-xxxhdpi\\app_bar_main_activity_principal.xml"
     },
     {
         "merged": "C:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_linear_out_slow_in.xml.flat",

@@ -13,6 +13,7 @@ import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.multidex.MultiDex;
@@ -28,11 +29,8 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import com.easyandroidanimations.library.FlipHorizontalAnimation;
-
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.widget.Toast;
-
 import br.radio.DigitalWeb.AsynData.AsynDataClass;
 import br.radio.DigitalWeb.AsynData.AsynDataClassStatus;
 import br.radio.DigitalWeb.AsynData.AsynDataClassStatusMetaDados;
@@ -56,7 +54,7 @@ public class MainActivityPrincipal extends AppCompatActivity
     public static ImageView btmPlay;
     public static CircleImageView imageLogo;
     @SuppressLint("StaticFieldLeak")
-    public static RelativeLayout content_main_activity_principal;
+    public static ConstraintLayout content_main_activity_principal;
     @SuppressLint("StaticFieldLeak")
     public static SeekBar seekBar,seekBar2;
     public ImageView imageView_somAlto;
