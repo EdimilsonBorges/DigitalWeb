@@ -31,7 +31,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/imageLogo"
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="230dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:contentDescription="@string/radio_nome"
@@ -70,7 +70,7 @@
                         android:gravity="center"
                         android:text="Título"
                         android:textColor="@color/colorTextIcons"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -81,7 +81,7 @@
                         android:gravity="center"
                         android:text="Artista"
                         android:textColor="@color/colorTextIcons"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="italic" />
                 </LinearLayout>
             </LinearLayout>
@@ -103,10 +103,10 @@
 
                 <ImageView
                     android:id="@+id/btmLigar"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:contentDescription="@string/btnLigarParaEmissora"
                     android:tint="@color/colorTextIcons"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -116,8 +116,8 @@
 
                 <ImageView
                     android:id="@+id/btmPlay"
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:contentDescription="@string/btnPlayOuPause"
                     android:tint="@color/colorTextIcons"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -128,10 +128,10 @@
 
                 <ImageView
                     android:id="@+id/btmCompartilhar"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_marginEnd="30dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginRight="50dp"
                     android:contentDescription="@string/compartilharNome"
                     android:tint="@color/colorTextIcons"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -207,7 +207,7 @@
                     android:gravity="center"
                     android:text="@string/cidadeNome"
                     android:textColor="@color/colorTextIcons"
-                    android:textSize="17sp" />
+                    android:textSize="15sp" />
 
             </LinearLayout>
 

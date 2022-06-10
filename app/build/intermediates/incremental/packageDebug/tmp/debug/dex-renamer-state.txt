@@ -1,4 +1,4 @@
-#Thu Jun 09 21:24:41 GMT-03:00 2022
+#Fri Jun 10 11:19:15 GMT-03:00 2022
 base.0=C\:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
