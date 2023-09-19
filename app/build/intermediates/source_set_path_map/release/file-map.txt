@@ -1,0 +1,23 @@
+br.radio.DigitalWeb.app-play-services-basement-16.0.1-0 C:\Users\Windows 10\.gradle\caches\transforms-3\222b4d14fffdb6f6b86e99ede8501120\transformed\play-services-basement-16.0.1\res
+br.radio.DigitalWeb.app-support-compat-28.0.0-1 C:\Users\Windows 10\.gradle\caches\transforms-3\3464ff5e3b33df4dfc8b722aea43887f\transformed\support-compat-28.0.0\res
+br.radio.DigitalWeb.app-coordinatorlayout-28.0.0-2 C:\Users\Windows 10\.gradle\caches\transforms-3\3da4d3e836e2654f2eb98e33c5b0f8de\transformed\coordinatorlayout-28.0.0\res
+br.radio.DigitalWeb.app-circleimageview-3.1.0-3 C:\Users\Windows 10\.gradle\caches\transforms-3\4cdd12cad8af2cb0ccbc6a4670c12baf\transformed\circleimageview-3.1.0\res
+br.radio.DigitalWeb.app-recyclerview-v7-28.0.0-4 C:\Users\Windows 10\.gradle\caches\transforms-3\548004d0a7b22372357cc7b33bdd99d7\transformed\recyclerview-v7-28.0.0\res
+br.radio.DigitalWeb.app-design-28.0.0-5 C:\Users\Windows 10\.gradle\caches\transforms-3\6e1297a0a4d4708d2957d1e26f8813a1\transformed\design-28.0.0\res
+br.radio.DigitalWeb.app-appcompat-v7-28.0.0-6 C:\Users\Windows 10\.gradle\caches\transforms-3\75bde715f2f94e51eeecc7024a181bea\transformed\appcompat-v7-28.0.0\res
+br.radio.DigitalWeb.app-constraint-layout-2.0.4-7 C:\Users\Windows 10\.gradle\caches\transforms-3\7737d396f8ce1389ea7ab0050146a0f7\transformed\constraint-layout-2.0.4\res
+br.radio.DigitalWeb.app-play-services-base-16.0.1-8 C:\Users\Windows 10\.gradle\caches\transforms-3\9b1bf244454e870a2f158d98598176a3\transformed\play-services-base-16.0.1\res
+br.radio.DigitalWeb.app-exoplayer-ui-2.8.0-9 C:\Users\Windows 10\.gradle\caches\transforms-3\a2ff0371c868ad42c49f50b7307d9ae4\transformed\exoplayer-ui-2.8.0\res
+br.radio.DigitalWeb.app-support-media-compat-28.0.0-10 C:\Users\Windows 10\.gradle\caches\transforms-3\a365ea1ce490e6570d326d7ccc7ece27\transformed\support-media-compat-28.0.0\res
+br.radio.DigitalWeb.app-cardview-v7-28.0.0-11 C:\Users\Windows 10\.gradle\caches\transforms-3\c06e9ddf92d632d2486f0eb92405b387\transformed\cardview-v7-28.0.0\res
+br.radio.DigitalWeb.app-transition-28.0.0-12 C:\Users\Windows 10\.gradle\caches\transforms-3\d5ef4bea38241c927adff0603c930cd0\transformed\transition-28.0.0\res
+br.radio.DigitalWeb.app-gridlayout-v7-28.0.0-13 C:\Users\Windows 10\.gradle\caches\transforms-3\fd93939824b8ae1421b63a7580a69edc\transformed\gridlayout-v7-28.0.0\res
+br.radio.DigitalWeb.app-pngs-14 C:\aplicativosandoid\DigitalWeb\app\build\generated\res\pngs\release
+br.radio.DigitalWeb.app-res-15 C:\aplicativosandoid\DigitalWeb\app\build\generated\res\processReleaseGoogleServices
+br.radio.DigitalWeb.app-resValues-16 C:\aplicativosandoid\DigitalWeb\app\build\generated\res\resValues\release
+br.radio.DigitalWeb.app-rs-17 C:\aplicativosandoid\DigitalWeb\app\build\generated\res\rs\release
+br.radio.DigitalWeb.app-mergeReleaseResources-18 C:\aplicativosandoid\DigitalWeb\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+br.radio.DigitalWeb.app-mergeReleaseResources-19 C:\aplicativosandoid\DigitalWeb\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+br.radio.DigitalWeb.app-merged_res-20 C:\aplicativosandoid\DigitalWeb\app\build\intermediates\merged_res\release
+br.radio.DigitalWeb.app-main-21 C:\aplicativosandoid\DigitalWeb\app\src\main\res
+br.radio.DigitalWeb.app-release-22 C:\aplicativosandoid\DigitalWeb\app\src\release\res

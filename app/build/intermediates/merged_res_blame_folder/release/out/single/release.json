@@ -1,0 +1,1038 @@
+[
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_custom_list_item.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/custom_list_item.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_computer.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_computer.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_sommetade.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_sommetade.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_pause.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_pause.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_custom_seekbar_style.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/custom_seekbar_style.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_fade_in.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/fade_in.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_custom_seekbar_style.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/custom_seekbar_style.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_ic_programacao.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/ic_programacao.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_somalto.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_somalto.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_play.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_play.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_ic_programacao.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-mdpi/ic_programacao.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_sair.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_sair.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_compartilhar.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_compartilhar.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_custom_seekbar_progress.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_icone_notification.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/icone_notification.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_fade_out.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/fade_out.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_ic_programacao.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-xhdpi/ic_programacao.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_sequential.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/sequential.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_ic_programacao.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-xxhdpi/ic_programacao.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_side_nav_bar.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/side_nav_bar.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_play.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_play.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_custom_seekbar_thumb.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/custom_seekbar_thumb.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_ic_pedir_musica.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/ic_pedir_musica.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_custom_list_item.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/custom_list_item.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_somalto.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_somalto.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_play.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_play.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_play.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_play.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_zoom_out.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/zoom_out.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_compartilhar.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_compartilhar.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_imagem_item.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_imagem_item.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_bounce.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/bounce.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_custom_seekbar_thumb.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/custom_seekbar_thumb.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_side_nav_bar.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_computer.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_computer.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/menu_menu.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/menu/menu.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_ic_pedir_musica.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/ic_pedir_musica.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_custom_seekbar_thumb.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/custom_seekbar_thumb.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_sobre.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_sobre.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-anydpi-v21_ic_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-anydpi-v21/ic_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_side_nav_bar.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/side_nav_bar.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_sair.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_sair.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_ic_historico.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/ic_historico.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_icone_notification.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/icone_notification.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/menu_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/menu/main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_custom_seekbar_thumb.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/custom_seekbar_thumb.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_somalto.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_somalto.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_pause.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_ic_tempo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/ic_tempo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_custom_seekbar_border_shadow.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/custom_seekbar_border_shadow.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_computer.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_computer.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_custom_seekbar_border_shadow.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/custom_seekbar_border_shadow.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_computer.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_computer.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_custom_seekbar_style.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/custom_seekbar_style.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_custom_list_item.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/custom_list_item.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_custom_seekbar_style.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/custom_seekbar_style.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_custom_seekbar_progress.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_logo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_sombaixo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_sombaixo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_icone_notification.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/icone_notification.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxxhdpi_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxxhdpi/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_custom_seekbar_thumb.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/custom_seekbar_thumb.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_custom_seekbar_border_shadow.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/custom_seekbar_border_shadow.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_custom_seekbar_thumb.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/custom_seekbar_thumb.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_telefone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_telefone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_icone_notification.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/icone_notification.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_custom_list_item.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/custom_list_item.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/menu_activity_main_principal_drawer.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/menu/activity_main_principal_drawer.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_compartilhar.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_compartilhar.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_custom_seekbar_progress.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_ic_tempo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/ic_tempo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_slide_down.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/slide_down.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_compartilhar.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_compartilhar.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_custom_seekbar_style.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/custom_seekbar_style.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_play.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_play.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_sommetade.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_sommetade.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_somalto.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_somalto.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_sair.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_sair.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_logo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/logo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_sombaixo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_sombaixo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_imagem_item.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_imagem_item.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_flip.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/flip.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_move.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/move.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_mudo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_mudo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_custom_seekbar_border_shadow.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/custom_seekbar_border_shadow.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxxhdpi_ic_programacao.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-xxxhdpi/ic_programacao.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_logo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_sombaixo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_sombaixo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_custom_seekbar_progress.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_custom_list_item.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/custom_list_item.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_compartilhar.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_compartilhar.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_sommetade.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_sommetade.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_sobre.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_sobre.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_custom_seekbar_style.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/custom_seekbar_style.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_logo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/logo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_custom_seekbar_style.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/custom_seekbar_style.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_telefone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_telefone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_slide_up.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/slide_up.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_mudo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_mudo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_custom_seekbar_border_shadow.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/custom_seekbar_border_shadow.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_pedidos_activity.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/pedidos_activity.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_side_nav_bar.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/side_nav_bar.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_sobre.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_sobre.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_custom_layout_activity_main.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/custom_layout_activity_main.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_logo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_imagem_item.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_imagem_item.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_icone_notification.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/icone_notification.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/xml_allowed_media_browser_callers.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/xml/allowed_media_browser_callers.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_pause.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_pause.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_custom_seekbar_progress.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_somalto.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_somalto.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_ic_programacao.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-ldpi/ic_programacao.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xlarge_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xlarge/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_sommetade.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_sommetade.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_telefone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_telefone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_custom_seekbar_border_shadow.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/custom_seekbar_border_shadow.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_custom_seekbar_progress.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_sair.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_sair.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_ic_historico.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/ic_historico.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_sombaixo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_sombaixo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_icone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/icone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_pause.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_pause.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_custom_list_item.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/custom_list_item.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_ic_pedir_musica.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/ic_pedir_musica.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_icone_notification.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/icone_notification.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_historico_activity.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/historico_activity.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_sobre.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_sobre.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_mudo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_mudo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-ldpi_content_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-ldpi/content_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xxhdpi_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xxhdpi/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_computer.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_computer.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_app_bar_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/app_bar_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_ic_historico.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/ic_historico.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_sombaixo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_sombaixo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_activity_main_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/activity_main_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_blink.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/blink.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_side_nav_bar.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/side_nav_bar.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_sair.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_sair.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_telefone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_telefone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_ic_historico.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/ic_historico.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_zoom_in.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/zoom_in.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_logo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_mudo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_mudo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xhdpi_ic_tempo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xhdpi/ic_tempo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_sommetade.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_sommetade.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-xhdpi_activity_programacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-xhdpi/activity_programacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_custom_seekbar_progress.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/custom_seekbar_progress.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_imagem_item.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_imagem_item.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxhdpi_ic_pause.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_together.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/together.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_logo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/logo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "br.radio.DigitalWeb.app-pngs-14:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_mudo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_mudo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_imagem_item.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_imagem_item.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable_custom_seekbar_border_shadow.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable/custom_seekbar_border_shadow.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xhdpi_ic_telefone.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xhdpi/ic_telefone.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-xxhdpi_side_nav_bar.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-xxhdpi/side_nav_bar.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_icone_notification.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/icone_notification.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-xxxhdpi_ic_sobre.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-xxxhdpi/ic_sobre.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-ldpi_custom_seekbar_thumb.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-ldpi/custom_seekbar_thumb.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_custom_list_item.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/custom_list_item.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-hdpi_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-hdpi/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-large_item_recycleview.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-large/item_recycleview.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout_custon_notificacao.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout/custon_notificacao.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-small_nav_header_main_activity_principal.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-small/nav_header_main_activity_principal.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-mdpi_ic_tempo.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-mdpi/ic_tempo.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-hdpi_ic_pedir_musica.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-hdpi/ic_pedir_musica.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/layout-mdpi_custon_dialog_temporizador.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/layout-mdpi/custon_dialog_temporizador.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/drawable-v21_side_nav_bar.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/drawable-v21/side_nav_bar.xml"
+    },
+    {
+        "merged": "br.radio.DigitalWeb.app-merged_res-20:/anim_rotate.xml.flat",
+        "source": "br.radio.DigitalWeb.app-main-21:/anim/rotate.xml"
+    }
+]

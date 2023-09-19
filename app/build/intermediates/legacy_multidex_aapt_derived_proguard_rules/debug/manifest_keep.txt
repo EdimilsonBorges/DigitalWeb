@@ -1,0 +1,2 @@
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
+-keep class br.radio.DigitalWeb.whateverString { <init>(); }

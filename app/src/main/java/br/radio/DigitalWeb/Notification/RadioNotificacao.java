@@ -54,7 +54,7 @@ public class RadioNotificacao {
         Intent notifyIntente = new Intent(context, MainActivityPrincipal.class);
 
         notifyIntente.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-        PendingIntent pendingIntent = PendingIntent.getActivities(context,0, new Intent[]{notifyIntente},PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntent = PendingIntent.getActivities(context,0, new Intent[]{notifyIntente},PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_MUTABLE);
 
         notificacao.setContentIntent(pendingIntent);
         notificacao.setSmallIcon(R.drawable.icone);
@@ -168,11 +168,19 @@ public class RadioNotificacao {
         Intent intentPlayPause = new Intent("NOTIFY_PLAYPAUSE2");
         Intent intentFechar = new Intent("NOTIFY_FECHAR2");
 
-        PendingIntent pendingIntentPlayPause = PendingIntent.getBroadcast(context,0, intentPlayPause, PendingIntent.FLAG_UPDATE_CURRENT);
-        remoteViews.setOnClickPendingIntent(R.id.imageViewButonPlayPause, pendingIntentPlayPause );
+        if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S){
+            PendingIntent pendingIntentPlayPause = PendingIntent.getBroadcast(context,0, intentPlayPause, PendingIntent.FLAG_IMMUTABLE);
+            remoteViews.setOnClickPendingIntent(R.id.imageViewButonPlayPause, pendingIntentPlayPause );
 
-        PendingIntent pendingIntentFechar = PendingIntent.getBroadcast(context,0, intentFechar, PendingIntent.FLAG_UPDATE_CURRENT);
-        remoteViews.setOnClickPendingIntent(R.id.imageViewSair, pendingIntentFechar );
+            PendingIntent pendingIntentFechar = PendingIntent.getBroadcast(context,0, intentFechar, PendingIntent.FLAG_IMMUTABLE);
+            remoteViews.setOnClickPendingIntent(R.id.imageViewSair, pendingIntentFechar );
+        }else{
+            PendingIntent pendingIntentPlayPause = PendingIntent.getBroadcast(context,0, intentPlayPause, PendingIntent.FLAG_UPDATE_CURRENT);
+            remoteViews.setOnClickPendingIntent(R.id.imageViewButonPlayPause, pendingIntentPlayPause );
+
+            PendingIntent pendingIntentFechar = PendingIntent.getBroadcast(context,0, intentFechar, PendingIntent.FLAG_UPDATE_CURRENT);
+            remoteViews.setOnClickPendingIntent(R.id.imageViewSair, pendingIntentFechar );
+        }
     }
 
 

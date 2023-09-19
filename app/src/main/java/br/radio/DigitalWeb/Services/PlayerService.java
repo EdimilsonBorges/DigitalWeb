@@ -93,7 +93,6 @@ public class  PlayerService extends MediaBrowserServiceCompat {
         super.onCreate();
         context = this;
 
-        sessionCompat = new MediaSessionCompat(context, LOG_TAG);
         mediaSessionCompat = createMediaSession(this);
 
         BandwidthMeter bandwidthMeter = new DefaultBandwidthMeter();
@@ -185,8 +184,16 @@ public class  PlayerService extends MediaBrowserServiceCompat {
 
         Intent mediaButtonIntent = new Intent(Intent.ACTION_MEDIA_BUTTON);
         mediaButtonIntent.setClass(context, BroadcastReceiverPlayPause.class);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, mediaButtonIntent, 0);
 
+        PendingIntent pendingIntent;
+
+        if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S){
+            pendingIntent = PendingIntent.getBroadcast(context, 0, mediaButtonIntent, PendingIntent.FLAG_IMMUTABLE);
+        }else {
+            pendingIntent = PendingIntent.getBroadcast(context, 0, mediaButtonIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        }
+
+        sessionCompat = new MediaSessionCompat(context, LOG_TAG, null, pendingIntent);
         sessionCompat.setFlags(MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS | MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS);
         sessionCompat.setCallback(new MediaSessionCallback());
         setSessionToken(sessionCompat.getSessionToken());

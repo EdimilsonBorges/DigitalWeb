@@ -1,4 +1,4 @@
-#Fri Jun 10 11:26:20 GMT-03:00 2022
-base.0=C\:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
-path.0=classes.dex
+#Tue Sep 19 19:31:49 GMT-03:00 2023
+base.0=C\:\\aplicativosandoid\\DigitalWeb\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 renamed.0=classes.dex
+path.0=classes.dex

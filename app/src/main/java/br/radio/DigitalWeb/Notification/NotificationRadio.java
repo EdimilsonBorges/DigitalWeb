@@ -93,15 +93,27 @@ public final class NotificationRadio {
         // intenção explícita de fechar a notificacao
         Intent intentFechar = new Intent(context, BroadcastReceiverSair.class);
         intentFechar.putExtra("NOTIFY_FECHAR","NOTIFY_FECHAR");
-        PendingIntent pendingIntentBroadcasterSair = PendingIntent.getBroadcast(context,0, intentFechar,PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntentBroadcasterSair;
 
         // intenção explícita para iniciar a reprodução
         Intent intentPlayPause = new Intent(context, BroadcastReceiverPlayPause.class);
         intentPlayPause.putExtra("NOTIFY_PLAYPAUSE","NOTIFY_PLAYPAUSE");
-        PendingIntent pendingIntentBroadcasterPlayPause = PendingIntent.getBroadcast(context,0, intentPlayPause,PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntentBroadcasterPlayPause;
 
         Intent intent = new Intent(context, MainActivityPrincipal.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(context,0, intent,PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntent;
+
+        if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S){
+            pendingIntentBroadcasterSair = PendingIntent.getBroadcast(context,0, intentFechar, PendingIntent.FLAG_IMMUTABLE);
+            pendingIntentBroadcasterPlayPause= PendingIntent.getBroadcast(context,0, intentPlayPause,PendingIntent.FLAG_IMMUTABLE);
+            pendingIntent = PendingIntent.getActivity(context,0, intent,PendingIntent.FLAG_IMMUTABLE );
+
+        }else {
+            pendingIntentBroadcasterSair = PendingIntent.getBroadcast(context,0, intentFechar,PendingIntent.FLAG_UPDATE_CURRENT);
+            pendingIntentBroadcasterPlayPause = PendingIntent.getBroadcast(context,0, intentPlayPause,PendingIntent.FLAG_UPDATE_CURRENT);
+            pendingIntent = PendingIntent.getActivity(context,0, intent,PendingIntent.FLAG_UPDATE_CURRENT);
+
+        }
 
         // pilha traseira artificial para Activity iniciada.
         // -> navegar para trás a partir da atividade leva à tela inicial.
